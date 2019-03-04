@@ -39,6 +39,27 @@ $(function() {
 	
 });
 
+$(document).ready(function () {
+		$(".preview").mousemove(function(e){
+		X = Math.floor(e.pageX-$(this).offset().left) +1 ;
+		Y = Math.floor(e.pageY-$(this).offset().top);
+		//$(this).text(X);
+		var page_a = 500 - X;
+		if(X < 0)
+			X = 0;
+		if(X > 500)
+			X = 500;
+		if(Y < 0)
+			Y = 0;
+		if(Y > 330)
+			Y = 330;
+		$('.car_b').css('width', X);
+		$('.preview .line').css('left', X);
+		$('.car_a').css('width', page_a);
+		$('.line .mark').css('top', Y);
+	});
+});
+
 $(window).load(function() {
 
 	$(".loader_inner").fadeOut();

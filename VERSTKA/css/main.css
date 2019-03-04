@@ -15,6 +15,8 @@
 	opacity: 1;
 }
 
+
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
@@ -61,4 +63,249 @@ body {
 }
 .hidden {
 	display: none;
+}
+
+header {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.header_top_menu {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 0;
+	width: 100%;
+	-webkit-box-shadow: 0px 22px 25px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 22px 25px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 22px 25px -6px rgba(0,0,0,0.75);
+	background-color: rgba(0,0,0,.6);
+}
+
+.logo_a {
+	padding: 10px;
+}
+.logo_a img {
+	max-width: 120px;
+	display: block;
+	margin: 0 auto;
+}
+.top_menu {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.top_menu li {
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	margin: 40px auto;
+	transition: all .25s;
+}
+.top_menu li a {
+	color: #fff;
+	
+}
+.top_menu li a:hover {
+	text-decoration:none;
+	
+}
+.top_menu li:hover{
+	
+	border-bottom: 2px solid #1e5fb0;
+}
+	
+.top_tel_wrp {
+	padding-top: 8px;
+}
+.top_tel {
+	/* line-height: 18px; */
+	color: #fff;
+	font-weight: 600;
+	margin: 5px auto;
+	display: block;
+}
+
+/*====FARA===*/
+
+.c2 {
+	position: absolute;
+	bottom: 10%;
+	left: 30%;
+	width: 40%;
+	/* border: 1px solid; */
+}
+.c2 .car1 {
+	position: relative;
+	padding-top: 10px;
+	
+}
+
+.c2 .car1 .preview {
+	width: 500px;
+	height: 352px;
+	position: relative;
+	margin: -30px auto;
+	overflow: hidden;
+}
+.c2 .preview .line {
+	width: 3px;
+	height: 395px;
+	background-color: #287FC4;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 3;
+}
+.c2 .preview .line .mark {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	border: 10px solid transparent;
+	border-right: 20px solid #287FC4;
+	left: -31px;
+	top: 50%;
+}
+.c2 .preview .car_b {
+	float: left;
+	height: inherit;
+	width: 250px;
+	background: url("../img/car2.png") left center no-repeat;
+	background-size: cover;
+}
+.c2 .preview .car_a {
+	float: right;
+	background: url("../img/car.png") right center no-repeat;
+	height: inherit;
+	width: 250px;
+}
+
+.top_info_block {
+	background-color: rgba(0,0,0,.75); 
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 30px 12px rgba(0,0,0,0.75);
+
+}
+.top_info_block h3 {
+	font-family: 'Russo One', sans-serif;
+	
+	font-size: 18px;
+	font-weight: 400;
+}
+#exit_on {
+	background-color: #1e5fb0;
+	width: 30%;
+	display: block;
+	margin: 5px auto;
+	padding: 10px;
+	cursor: pointer;
+}
+/*====FARA===*/
+
+
+main {
+	margin-top: 150px;
+}
+.container.produkt_items hr {
+	height: 1px;
+	background-color: #0000004d;
+	width: 90%;
+}
+.produkt_ttl {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 25px;
+}
+.item_desc {
+	font-size: 18px;
+	font-weight: 600;
+}
+.price {
+	font-size: 20px;
+	font-weight: 600;
+}
+.price span {
+	font-weight: 400;
+}
+.price_div {
+	text-align: center;
+}
+.buy_btn {
+	display: block;
+	width: 250px;
+	margin: 10px auto;
+	background-color: #1e5fb0;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.col-md-12.container_ttl {
+	font-size: 38px;
+	text-align: center;
+	color: #1e5fb0;
+	padding: 15px;
+	font-family: 'Prosto One', cursive;
+	margin-top: 80px;
+}
+.conditions {
+	margin-top: 5%;
+}
+.conditions {
+	margin-top: 5%;
+	border-bottom: 1px solid #24242433;
+	padding-bottom: 30px;
+}
+.box_img {
+	max-width: 60%;
+	display: block;
+	margin: 0px auto;
+}
+#pluses {
+	padding-top: 8%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/pluses.jpg);
+	padding-bottom: 2%;
+}
+.pluses_img {
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+.pls_ul {
+	list-style: none;
+	/* padding: 0; */
+	/* line-height: 30px; */
+}
+.pls_ul li h2 {
+	font-weight: 100;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+.pls_ul li h2 span {
+	color: gray;
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: -40px;
+	font-weight: 500;
+	opacity: .7;
+}
+.pls_ul li p {
+	padding: 0;
+	margin: 5px auto;
+	opacity: .8;
+	color: #000;
 }
