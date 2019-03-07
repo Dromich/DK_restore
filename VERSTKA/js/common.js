@@ -58,6 +58,11 @@ $(document).ready(function () {
 		$('.car_a').css('width', page_a);
 		$('.line .mark').css('top', Y);
 	});
+
+
+
+
+
 });
 
 $(window).load(function() {
