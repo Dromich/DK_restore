@@ -311,3 +311,17 @@ main {
 	opacity: .8;
 	color: #000;
 }
+#youtubeBig {
+	display: block;
+	margin: 15px auto;
+	
+}
+.youtube_item span {
+	display: block;
+	text-align: center;
+	margin: 15px auto;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+	color: #1e5fb0;
+}
