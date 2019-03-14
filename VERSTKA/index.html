@@ -21,7 +21,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
 
 	<link rel="stylesheet" href="css/fonts.css">
@@ -172,7 +172,7 @@
 					</div>
 
 
-					<div class="buy_btn">ЗАМОВИТИ</div>
+					<div class="buy_btn" data-toggle="modal" data-target="#exampleModal" data-whatever="Delta Kits Coat2Protect" data-olx-link="https://www.olx.ua/list/q-Toshiba-C-655-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0/">ЗАМОВИТИ</div>
 				</div>
 
 				<div class="col-md-6">
@@ -345,9 +345,9 @@
 				
 				<form class="ajax_form">
 					
-					<input type="text" name="name" value=""  class="input_name" placeholder="Ваше ім'я" />
-					<input type="text" name="phone" value="" class="input_phone" required="required" placeholder="Ваш телефон(обов'язково)" />
-					<input type="text" name="email" value="" class="input_email" placeholder="Ваш e-mail" />
+					<input type="text" name="name" value=""  class="form-control" placeholder="Ваше ім'я" />
+					<input type="text" name="phone" value="" class="form-control" required="required" placeholder="Ваш телефон(обов'язково)" />
+					<input type="text" name="email" value="" class="form-control" placeholder="Ваш e-mail" />
 					<input class="bttn" name="submit4" type="submit" value="Замовити 2 DELTA KITS" />
 				</form>
 			</div>
@@ -417,14 +417,88 @@
 				<div class="clear"></div>
 			</div>
 		</section>
+
 	</main>
 
 
+	
+	
+	
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="exampleModalLabel">Замовлення товару</h4>
+		  </div>
+		  <div class="modal-body">
+			<form class="ajax_form" method="post">
+
+				<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="dk-restore">
+		<input type="hidden" name="admin_email" value="legranchio@gmail.com">
+		<input type="hidden" name="form_subject" value="Замовлення">
+<!-- END Hidden Required Fields -->
+
+			  <div class="form-group">
+				<label  for="goods_name" class="control-label">Ваше замовлення</label>
+				<input name="Товар" type="text" class="form-control" id="goods_name">
+			  </div>
+
+			  <div class="form-group">
+				
+				<input name="ім'я" type="text" class="form-control" id="recipient-name" placeholder="Ваше ім'я" required>
+			  </div>
+			  <div class="form-group">
+				
+					<input name="Прізвище" type="text" class="form-control" id="recipient-altname" placeholder="Ваше прізвище" required>
+				  </div>
+			  <div class="form-group">
+					
+					<input name="телефон" type="text" class="form-control" id="recipient-phone" placeholder="Ваш телефон" required>
+				  </div>
+
+				  <div class="form-group">
+					  <h4>Оберіть спосіб доставки</h4>
+					  <img id="olx_btn" class="deliver_tupe" src="img/logotip-olx.png" alt="OLX">
+					  <img id="np_btn" class="deliver_tupe" src="img/Nova_Poshta_2014_logo.svg" alt="NOVA POSHTA">						
+						
+					  </div>
+
+<div id="np_selectors" class="form-group hidden ">
+		<h5>Оберіть місто доставки</h5>
+		<select name="Місто доставки" class="form-control" id="cities" name="city"></select>
+		<h5>Оберіть віділення </h5>
+		<select name="Віділення НП" class="form-control" id="warehouses"></select>
+</div>
+					  
+
+			  <div class="form-group">
+				<label for="message-text" class="control-label">Ваші побажання</label>
+				<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
+			  </div>
+			
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+			<button  type="submit" class="sb_btn btn btn-primary">Замовити</button>
+			
+		  </div>
+		</form>
+		</div>
+	  </div>
+	</div>
 
 
 
+	<div class="hidden">
 
-	<div class="hidden"></div>
+		<div id="my-popup" class="white-popup">
+<h1>testtttt</h1>
+
+		</div>
+
+	</div>
 
 	<div class="loader">
 		<div class="loader_inner"></div>
@@ -443,6 +517,10 @@
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 	<script src="libs/fotorama/fotorama.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="libs/mag_pop/mag_pop.css">
+	<script src="libs/mag_pop/magpop.js"></script>
 
 	<link rel="stylesheet" href="libs/fotorama/fotorama.css">
 
@@ -451,6 +529,8 @@
 	<script>
 			new WOW().init();
 			</script>
+
+			
 
 </body>
 

@@ -435,14 +435,14 @@ main {
 		margin: 0;
 	}
 	.ajax_form input {
-		display: block;
-		width: 80%;
-		margin: 8px auto;
-		border-radius: 10px;
-		border: 1px solid #585d6366;
-		padding: 5px;
+		
+		
+		margin: 8px auto;	
+		
 	}
-
+	.bttn {
+		display: block;
+	}
 
 	.order_block h4 {
 		display: block;
@@ -597,4 +597,34 @@ main {
 		-webkit-transition: all 0.4s;
 		-moz-transition: all 0.4s;
 		transition: all 0.4s;
+	}
+	.white-popup {
+		position: relative;
+		background: #FFF;
+		padding: 40px;
+		width: auto;
+		max-width: 200px;
+		margin: 20px auto;
+		text-align: center;
+	  }
+
+	  .deliver_tupe {
+		max-width: 80px;
+		display: inline-block;
+		margin: 10px 15px;
+		cursor: pointer;
+		transition: all .5s;
+		
+	}
+	.deliver_tupe:hover{
+		transform:scale(1.3);
+	}
+	.form-group h4 {
+		text-align: center;
+		font-size: 22px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+	}
+	#np_selectors select {
+		margin: 15px auto;
 	}
