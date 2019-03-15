@@ -16,7 +16,7 @@ if($_POST['warehouses']) {
 } else {
     $cities = $np->getCities();
     foreach ($cities['data'] as $city) {
-        echo '<option value="'.$city['Ref'].'">'.$city['Description'].'</option>';
+        echo '<option data-cname="'.$city['Ref'].'" value="'.$city['Description'].'">'.$city['Description'].'</option>';
     }
 }
 ?>

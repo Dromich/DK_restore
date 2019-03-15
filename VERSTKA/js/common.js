@@ -61,7 +61,7 @@ $(document).ready(function () {
 		$('.line .mark').css('top', Y);
 	});
 
-	
+
     
 
 
@@ -75,7 +75,9 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
     // get warehouses
     $('#cities').change(function(){
-        var wh = $(this).val();
+	//	var wh = $(this).val();
+		
+		var wh = $("#cities option:selected").data('cname')
 
         $.ajax({
             url : 'file.php',
@@ -88,7 +90,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
             },
             error : function(request,error)
             {
-                $('#warehouses').html('<option>-</option>');
+                $('#warehouses').html('<h2>Виникла помилка</h2>');
             }
         });
     })
@@ -111,10 +113,7 @@ setTimeout(() => {
 		
 	});
 
-$('.sb_btn').click(function (e) { 
-	e.preventDefault();
-	
-});
+
 
 
 	var button = $(event.relatedTarget) // Button that triggered the modal
