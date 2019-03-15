@@ -143,7 +143,12 @@
 					</div>
 
 
-					<div class="buy_btn" data-toggle="modal" data-target="#exampleModal" data-whatever="Delta Kits Coat2Protect" data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
+					<div class="buy_btn"
+					data-toggle="modal"
+					data-target="#exampleModal" 
+				   data-whatever="Delta Kits Coat2Protect"
+				   data-price="price"
+				   data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
 				</div>
 
 			</div>
@@ -172,7 +177,12 @@
 					</div>
 
 
-					<div class="buy_btn" data-toggle="modal" data-target="#exampleModal" data-whatever="Delta Kits Coat2Protect" data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
+					<div class="buy_btn"
+					 data-toggle="modal"
+					 data-target="#exampleModal" 
+					data-whatever="Delta Kits Coat2Protect"
+					data-price="price"
+					data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
 				</div>
 
 				<div class="col-md-6">
@@ -443,6 +453,8 @@
 			  <div class="form-group">
 				<label  for="goods_name" class="control-label">Ваше замовлення</label>
 				<input name="Товар" type="text" class="form-control" id="goods_name">
+
+				<input id="price_form" type="hidden" name="ціна">
 			  </div>
 
 			  <div class="form-group">
@@ -465,13 +477,27 @@
 						
 					  </div>
 
-<div id="np_selectors" class="form-group ">
+<div id="np_selectors" class="form-group">
 		<h5>Оберіть місто доставки</h5>
-		<select name="Місто доставки" class="form-control" id="cities" name="city"></select>
+		<select name="Місто доставки" class="form-control" id="cities" ></select>
 		<h5>Оберіть віділення </h5>
 		<select name="Віділення НП" class="form-control" id="warehouses"></select>
 </div>
-					  
+			
+<div class="form-group">
+	<h5>Оберіть кількість товару</h5>
+	<select name="Кількість" size="1" class="form-control" id="goods_count" >
+
+    <option disabled>Оберіть кількість</option>
+    <option value="1">1</option>
+    <option selected value="2">2</option>
+    <option value="3">3</option>
+    <option value="10">10</option>
+   
+
+	</select>
+	
+</div>
 
 			  <div class="form-group">
 				<label for="message-text" class="control-label">Ваші побажання</label>

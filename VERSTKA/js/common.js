@@ -69,12 +69,11 @@ $(document).ready(function () {
 
 
 $('#exampleModal').on('show.bs.modal', function (event) {
-	$('.ajax_form').trigger("reset");$
-
-	('#np_selectors').addClass('hidden ');
-
+	$('.ajax_form').trigger("reset");
 	$("#cities").load( "file.php" );
+$("#price_form").val(button.data('price'));
 
+	
     // get warehouses
     $('#cities').change(function(){
 	//	var wh = $(this).val();
@@ -109,23 +108,13 @@ setTimeout(() => {
 	});
 
 	$('#np_btn').click(function (e) { 
-		e.preventDefault();
-		
-
-		
+		e.preventDefault();		
 		$('#np_selectors').slideToggle()
 	});
 
-	
+	var button = $(event.relatedTarget) 
 
-
-
-
-	var button = $(event.relatedTarget) // Button that triggered the modal
-
-	var recipient = button.data('whatever') // Extract info from data-* attributes
-	// If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-	// Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+	var recipient = button.data('whatever') 
 	var modal = $(this)
 	modal.find('.modal-title').text('Замовлення товару ' + recipient)
 	modal.find('#goods_name').val(recipient)
