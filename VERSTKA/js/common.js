@@ -69,7 +69,9 @@ $(document).ready(function () {
 
 
 $('#exampleModal').on('show.bs.modal', function (event) {
+	$('.ajax_form').trigger("reset");$
 
+	('#np_selectors').addClass('hidden ');
 
 	$("#cities").load( "file.php" );
 
@@ -108,10 +110,13 @@ setTimeout(() => {
 
 	$('#np_btn').click(function (e) { 
 		e.preventDefault();
-
-		$('#np_selectors').removeClass('hidden ');
 		
+
+		
+		$('#np_selectors').slideToggle()
 	});
+
+	
 
 
 

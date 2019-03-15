@@ -629,3 +629,6 @@ main {
 	#np_selectors select {
 		margin: 15px auto;
 	}
+	#np_selectors{
+		display: none;
+	}
