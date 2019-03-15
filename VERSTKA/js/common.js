@@ -16,10 +16,13 @@ $(function () {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function () {
-			alert("Thank you!");
+			//alert("Thank you!");
 			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
+				$("#exampleModal .close").click();
+			
+
 			}, 1000);
 		});
 		return false;
@@ -66,12 +69,15 @@ $(document).ready(function () {
 
 
 });
-
+$('#exampleModal2').on('shown.bs.modal', function () {
+	$('#myInput').trigger('focus')
+  })
 
 $('#exampleModal').on('show.bs.modal', function (event) {
+
 	$('.ajax_form').trigger("reset");
 	$("#cities").load( "file.php" );
-$("#price_form").val(button.data('price'));
+
 
 	
     // get warehouses
@@ -118,6 +124,8 @@ setTimeout(() => {
 	var modal = $(this)
 	modal.find('.modal-title').text('Замовлення товару ' + recipient)
 	modal.find('#goods_name').val(recipient)
+	modal.find('#price_form').val(button.data('price'))
+	
   })
 
 

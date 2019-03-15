@@ -354,7 +354,13 @@
 				<h4>Залиште заявку на 2 набори і отримайте знижку 10%!</h4>
 				
 				<form class="ajax_form">
-					
+					<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="dk-restore">
+		<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
+		<input type="hidden" name="form_subject" value="Акція">
+<!-- END Hidden Required inpFields -->
+
+<input type="hidden" name="Акція на два дельтакідс" value="on">
 					<input type="text" name="name" value=""  class="form-control" placeholder="Ваше ім'я" />
 					<input type="text" name="phone" value="" class="form-control" required="required" placeholder="Ваш телефон(обов'язково)" />
 					<input type="text" name="email" value="" class="form-control" placeholder="Ваш e-mail" />
@@ -416,14 +422,16 @@
 			<em>+38 (068) <b>073-01-95</b></em>
 			<em>+38 (099) <b>083-56-54</b></em>
 			<em>+38 (073) <b>092-32-62</b></em>
-			<a id="go" rel="leanModal" name="callback" href="#callback" class="mc">Замовити дзвінок</a>
+			<a id="go"  data-toggle="modal"
+			data-target="#exampleModal2"  class="mc">Замовити дзвінок</a>
 			
 		</div>
 	</section>
 	<section class="any_q">
 			<div class="wrap">
 				<h2>Залишились запитання?</h2>
-				<a id="go" rel="leanModal" name="question" href="#question">Поставте їх нам якнайшвидше!</a>
+				<a id="go"   data-toggle="modal"
+				data-target="#exampleModal2"  >Поставте їх нам якнайшвидше!</a>
 				<div class="clear"></div>
 			</div>
 		</section>
@@ -446,7 +454,7 @@
 
 				<!-- Hidden Required Fields -->
 		<input type="hidden" name="project_name" value="dk-restore">
-		<input type="hidden" name="admin_email" value="legranchio@gmail.com">
+		<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
 		<input type="hidden" name="form_subject" value="Замовлення">
 <!-- END Hidden Required Fields -->
 
@@ -516,13 +524,50 @@
 	</div>
 
 
+	<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <h4 class="modal-title" id="exampleModalLabel">Вкажіть ваше запитання побажання чи пропозицію</h4>
+			</div>
+			<div class="modal-body">
+		<form class="ajax_form">
+<!-- Hidden Required Fields -->
+<input type="hidden" name="project_name" value="dk-restore">
+<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
+<input type="hidden" name="form_subject" value="Замовлення">
+<!-- END Hidden Required Fields -->
+
+	  
+
+	  <div class="form-group">
+		
+		<input name="ім'я" type="text" class="form-control" id="recipient-name" placeholder="Ваше ім'я" required>
+	  </div>
+	 
+	  <div class="form-group">
+			
+			<input name="телефон" type="text" class="form-control" id="recipient-phone" placeholder="Ваш телефон" required>
+		  </div>
+		  <div class="form-group">
+			<label for="message-text" class="control-label">Ваші побажання</label>
+			<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
+		  </div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+				<button  type="submit" class="btn  btn-primary">Надіслати</button>
+				
+			  </div>
+		</form>
+		  </div>
+		</div>
+	  </div>
+
 
 	<div class="hidden">
 
-		<div id="my-popup" class="white-popup">
-<h1>testtttt</h1>
-
-		</div>
+		
 
 	</div>
 
