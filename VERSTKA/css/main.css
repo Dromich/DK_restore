@@ -171,6 +171,7 @@ header {
 	border-right: 20px solid #287FC4;
 	left: -31px;
 	top: 50%;
+	background-color: transparent;
 }
 .c2 .preview .car_b {
 	float: left;

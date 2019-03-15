@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="" id="citis">
+    <select id="cities" name="city"></select>
+</form>
+<select id="warehouses"></select>
+<script>
+    // load cities
+    $("#cities").load( "file.php" );
+
+    // get warehouses
+    $('#cities').change(function(){
+        var wh = $(this).val();
+
+        $.ajax({
+            url : 'file.php',
+            type : 'POST',
+            data : {
+                'warehouses' : wh,
+            },
+            success : function(data) {
+                $('#warehouses').html(data);
+            },
+            error : function(request,error)
+            {
+                $('#warehouses').html('<option>-</option>');
+            }
+        });
+    })
+</script>
+</body>
+</html>
