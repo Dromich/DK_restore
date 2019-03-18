@@ -10,23 +10,22 @@
 
 	<meta charset="utf-8">
 
-	<title>Заголовок</title>
-	<meta name="description" content="">
+	{headers}
 
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="{THEME}/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{THEME}/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{THEME}/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{THEME}/img/favicon/apple-touch-icon-114x114.png">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="{THEME}/libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{THEME}/libs/animate/animate.css">
 
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="{THEME}/css/fonts.css">
+	<link rel="stylesheet" href="{THEME}/css/main.css">
+	<link rel="stylesheet" href="{THEME}/css/media.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Russo+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Prosto+One&amp;subset=cyrillic,latin-ext" rel="stylesheet">
@@ -34,7 +33,7 @@
 
 
 
-	<script src="libs/modernizr/modernizr.js"></script>
+	<script src="{THEME}/libs/modernizr/modernizr.js"></script>
 
 </head>
 
@@ -47,7 +46,7 @@
 
 					<div class="col-md-2">
 						<a class="logo_a" href="/">
-							<img src="img/logo.png" alt="logo">
+							<img src="{THEME}/img/logo.png" alt="logo">
 						</a>
 
 					</div>
@@ -84,7 +83,7 @@
 
 
 		<div class="fotorama" data-nav="false" data-width="100%" data-height="100%" data-fit="cover">
-			<img src="img/6114.jpg">
+			<img src="{THEME}/img/6114.jpg">
 		</div>
 		<div class="c2">
 
@@ -118,8 +117,8 @@
 					Delta Kits Coat2Protect</h2>
 				<div class="col-md-6">
 					<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-fit="contain">
-						<img src="img/Delta kits Coat2Protect-3.jpg">
-						<img src="img/Delta kits Infinity 4.1.jpg">
+						<img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
+						<img src="{THEME}/img/Delta kits Infinity 4.1.jpg">
 					</div>
 
 				</div>
@@ -187,8 +186,8 @@
 
 				<div class="col-md-6">
 					<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-fit="contain">
-						<img src="img/Delta kits Coat2Protect-3.jpg">
-						<img src="img/Delta kits Infinity 4.1.jpg">
+						<img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
+						<img src="{THEME}/img/Delta kits Infinity 4.1.jpg">
 					</div>
 
 				</div>
@@ -208,7 +207,7 @@
 
 				<div class="row conditions">
 					<div class="col-md-6">
-						<img class="box_img" src="img/v1.png" alt="v1">
+						<img class="box_img" src="{THEME}/img/v1.png" alt="v1">
 					</div>
 					<div class="col-md-6">
 						<h3 class="small_ttl">Механічні</h3>
@@ -227,13 +226,13 @@
 							зовнішній вигляд фар автомобіля. </p>
 					</div>
 					<div class="col-md-6">
-						<img class="box_img" src="img/v2.png" alt="v1">
+						<img class="box_img" src="{THEME}/img/v2.png" alt="v1">
 					</div>
 					<hr>
 				</div>
 				<div class="row conditions">
 					<div class="col-md-6">
-						<img class="box_img" src="img/v3.png" alt="v1">
+						<img class="box_img" src="{THEME}/img/v3.png" alt="v1">
 					</div>
 					<div class="col-md-6">
 						<h3 class="small_ttl">Погодні</h3>
@@ -254,7 +253,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<img class="pluses_img" src="img/pluses_img.png" alt="pluses">
+						<img class="pluses_img" src="{THEME}/img/pluses_img.png" alt="pluses">
 
 					</div>
 					<div class="col-md-6">
@@ -308,7 +307,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-xs-12">
-				<img id="youtubeBig" src="img/yt.png" alt="youTube">
+				<img id="youtubeBig" src="{THEME}/img/yt.png" alt="youTube">
 			</div>
 
 			<div class="col-md-4 youtube_item">
@@ -480,8 +479,8 @@
 
 				  <div class="form-group">
 					  <h4>Оберіть спосіб доставки</h4>
-					  <img id="olx_btn" class="deliver_tupe" src="img/logotip-olx.png" alt="OLX">
-					  <img id="np_btn" class="deliver_tupe" src="img/Nova_Poshta_2014_logo.svg" alt="NOVA POSHTA">						
+					  <img id="olx_btn" class="deliver_tupe" src="{THEME}/img/logotip-olx.png" alt="OLX">
+					  <img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg" alt="NOVA POSHTA">						
 						
 					  </div>
 
@@ -582,20 +581,20 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="libs/waypoints/waypoints.min.js"></script>
-	<script src="libs/animate/animate-css.js"></script>
-	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
-	<script src="libs/wow/wow.min.js"></script>
-	<script src="libs/fotorama/fotorama.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<!--script src="{THEME}/libs/jquery/jquery-1.11.2.min.js"></script-->
+	<script src="{THEME}/libs/waypoints/waypoints.min.js"></script>
+	<script src="{THEME}/libs/animate/animate-css.js"></script>
+	<script src="{THEME}/libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="{THEME}/libs/wow/wow.min.js"></script>
+	<script src="{THEME}/libs/fotorama/fotorama.js"></script>
+	<script src="{THEME}/libs/bootstrap/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" href="libs/mag_pop/mag_pop.css">
-	<script src="libs/mag_pop/magpop.js"></script>
+	<link rel="stylesheet" href="{THEME}/libs/mag_pop/mag_pop.css">
+	<script src="{THEME}/libs/mag_pop/magpop.js"></script>
 
-	<link rel="stylesheet" href="libs/fotorama/fotorama.css">
+	<link rel="stylesheet" href="{THEME}/libs/fotorama/fotorama.css">
 
-	<script src="js/common.js"></script>
+	<script src="{THEME}/js/common.js"></script>
 
 	<script>
 			new WOW().init();
