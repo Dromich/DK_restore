@@ -13,7 +13,7 @@ $(function () {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "/mail.php", //Change
 			data: th.serialize()
 		}).done(function () {
 			//alert("Thank you!");
@@ -76,7 +76,7 @@ $('#exampleModal2').on('shown.bs.modal', function () {
 $('#exampleModal').on('show.bs.modal', function (event) {
 
 	$('.ajax_form').trigger("reset");
-	$("#cities").load( "file.php" );
+	$("#cities").load( "/file.php" );
 
 
 	
@@ -87,7 +87,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 		var wh = $("#cities option:selected").data('cname')
 
         $.ajax({
-            url : 'file.php',
+            url : '/file.php',
             type : 'POST',
             data : {
                 'warehouses' : wh,
