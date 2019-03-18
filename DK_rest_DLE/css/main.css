@@ -744,3 +744,9 @@ main {
 .highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important }
 .highslide-controls .highslide-close a { background-position: -180px 0 }
 .highslide-controls .highslide-close a:hover { background-position: -180px -30px }
+#testimonals h2 {
+	text-align: center;
+	padding: 15px;
+	font-size: 34px;
+	text-transform: uppercase;
+}
