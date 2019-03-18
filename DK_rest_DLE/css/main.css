@@ -651,3 +651,96 @@ main {
 		height: 100%;
 		border: 3px solid #fff;
 	}
+
+
+/*--- Загрузчик AJAX ---*/
+#loading-layer {
+	display: block !important;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.9);
+	z-index: 9999;
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	width: 100%; height: 100%; text-indent: -9999px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#loading-layer:before, #loading-layer:after {
+	content: "";
+	border-radius: 50%;
+	background-color: #95c00e;
+	position: absolute;
+	left: 50%; top: 50%;
+}
+#loading-layer:before {
+	width: 100px; height: 100px;
+	margin: -50px 0 0 -50px;
+}
+#loading-layer:after {
+	width: 40px; height: 40px;
+	background-color: #8663c4;
+	margin: -20px 0 0 -20px;
+}
+
+#loading-layer:before {
+	-webkit-animation: load1 1s infinite ease;
+	animation: load1 1s infinite ease;
+}
+#loading-layer:after {
+	-webkit-animation: load2 1s infinite -0.32s ease;
+	animation: load2 1s infinite -0.32s ease;
+}
+@-webkit-keyframes load1 {
+	0%, 80%, 100% { -webkit-transform: scale(1,1); }
+	40% { -webkit-transform: scale(.6,.6); }
+}
+@keyframes load1 {
+	0%, 80%, 100% { transform: scale(1,1); }
+	40% { transform: scale(.6,.6); }
+}
+@-webkit-keyframes load2 {
+	0%, 80%, 100% { -webkit-transform: scale(1,1); }
+	40% { -webkit-transform: scale(.5,.5); }
+}
+@keyframes load2 {
+	0%, 80%, 100% { transform: scale(1,1); }
+	40% { transform: scale(.5,.5); }
+}
+
+/*---показ оригинальной картинки загруженной на сайт из уменьшенной копии---*/
+.highslide-wrapper, .highslide-outline { background: #fff }
+	.highslide-image { border: 2px solid #fff }
+	.highslide-active-anchor { visibility: hidden } 
+	.highslide-active-anchor img { visibility: hidden }
+	.highslide-dimming { background-color: black }
+	.highslide-html { background-color: white }
+	.highslide-loading { display: block; color: white; font-size: 9px; font-weight: bold; text-decoration: none; padding: 3px; border: 1px solid white; background-color: black }
+	a.highslide-full-expand { background: url(../dleimages/fullexpand.gif) no-repeat; display: block; margin: 0 10px 10px 0; width: 34px; height: 34px }
+	.highslide-display-block { display: block }
+	.highslide-display-none { display: none }
+	.highslide-caption { display: none; padding: 5px; background: white }
+	.highslide-controls { width: 195px; height: 40px; background: url(../../../engine/classes/highslide/graphics/controlbar-black-border.gif) no-repeat 0 -90px; margin-right: 15px; margin-bottom: 10px; margin-top: 10px }
+	.highslide-controls ul { position: relative; left: 15px; height: 40px; list-style: none; margin: 0; padding: 0; background: url(../../../engine/classes/highslide/graphics/controlbar-black-border.gif) no-repeat 100% -90px }
+	.highslide-controls li { float: left; padding: 5px 0; }
+	.highslide-controls a { background: url(../../../engine/classes/highslide/graphics/controlbar-black-border.gif); display: block; float: left; height: 30px; width: 30px; outline: none }
+	.highslide-controls a.disabled { cursor: default }
+	.highslide-controls a span { display: none }
+	/*---The CSS sprites for the controlbar---*/
+.highslide-controls .highslide-previous a { background-position: 0 0 }
+.highslide-controls .highslide-previous a:hover { background-position: 0 -30px }
+.highslide-controls .highslide-previous a.disabled { background-position: 0 -60px !important }
+.highslide-controls .highslide-play a { background-position: -30px 0 }
+.highslide-controls .highslide-play a:hover { background-position: -30px -30px }
+.highslide-controls .highslide-play a.disabled { background-position: -30px -60px !important }
+.highslide-controls .highslide-pause a { background-position: -60px 0 }
+.highslide-controls .highslide-pause a:hover { background-position: -60px -30px }
+.highslide-controls .highslide-next a { background-position: -90px 0 }
+.highslide-controls .highslide-next a:hover { background-position: -90px -30px }
+.highslide-controls .highslide-next a.disabled { background-position: -90px -60px !important }
+.highslide-controls .highslide-move a { background-position: -120px 0 }
+.highslide-controls .highslide-move a:hover { background-position: -120px -30px }
+.highslide-controls .highslide-full-expand a { background-position: -150px 0 }
+.highslide-controls .highslide-full-expand a:hover { background-position: -150px -30px }
+.highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important }
+.highslide-controls .highslide-close a { background-position: -180px 0 }
+.highslide-controls .highslide-close a:hover { background-position: -180px -30px }
