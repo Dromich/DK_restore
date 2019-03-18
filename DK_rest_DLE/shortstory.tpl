@@ -31,7 +31,7 @@
 		<hr>
 
 		<div class="price_div">
-			<span class="price">ЦІНА: <span>250грн.</span> </span>
+			<span class="price">ЦІНА: <span>[xfvalue_price]грн.</span> </span>
 
 
 		</div>
@@ -41,8 +41,8 @@
 		data-toggle="modal"
 		data-target="#exampleModal" 
 	   data-whatever="{title}"
-	   data-price="price"
-	   data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
+	   data-price="[xfvalue_price]"
+	   data-olx-link="[xfvalue_olx_linck]">ЗАМОВИТИ</div>
 	</div>
 
 </div> [/xfnotgiven_rtol]
@@ -64,7 +64,7 @@
 		<hr>
 
 		<div class="price_div">
-			<span class="price">ЦІНА: <span>250грн.</span> </span>
+			<span class="price">ЦІНА: <span>[xfvalue_price]грн.</span> </span>
 
 
 		</div>
@@ -74,8 +74,8 @@
 		data-toggle="modal"
 		data-target="#exampleModal" 
 	   data-whatever="{title}"
-	   data-price="price"
-	   data-olx-link="https://www.olx.ua/list/q-Delta-Kits-Coat2Protect/">ЗАМОВИТИ</div>
+	   data-price="[xfvalue_price]"
+	   data-olx-link="[xfvalue_olx_linck]">ЗАМОВИТИ</div>
 	</div>
 
 	<div class="col-md-6">
