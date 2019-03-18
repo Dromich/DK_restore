@@ -4,15 +4,17 @@
 	<h2 class="produkt_ttl">{title}</h2>
 	<div class="col-md-6">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-fit="contain">
-			<img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
-			<img src="{THEME}/img/Delta kits Infinity 4.1.jpg">
+
+			{image-1}{image-2}{image-3}{image-4}{image-5}{image-6}{image-7}
+			<!--img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
+			<img src="{THEME}/img/Delta kits Infinity 4.1.jpg"-->
 		</div>
 
 	</div>
 	<div class="col-md-6">
-		<p class="item_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quasi nam est
-			voluptatem
-			rerum beatae nesciunt quibusdam, neque cum nihil sapiente, atque dicta! Officia ipsam unde maiores illo dicta?</p>
+		<p class="item_desc">{short-story limit="380"}</p>
+
+
 		<p>- Лак Delta Kits Coat2Protect (2 компонента по 10 мл) <br>
 			- Знежирювач (10 мл.);<br>
 			- Наждачний папір 320,500,800,1200,1500,3000 (8x10 см. по 4 шт.)<br>
@@ -43,9 +45,9 @@
 	<h2 class="produkt_ttl">{title}</h2>
 	
 	<div class="col-md-6">
-		<p class="item_desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quasi nam est
-			voluptatem
-			rerum beatae nesciunt quibusdam, neque cum nihil sapiente, atque dicta! Officia ipsam unde maiores illo dicta?</p>
+		<p class="item_desc">{short-story limit="380"}</p>
+
+
 		<p>- Лак Delta Kits Coat2Protect (2 компонента по 10 мл) <br>
 			- Знежирювач (10 мл.);<br>
 			- Наждачний папір 320,500,800,1200,1500,3000 (8x10 см. по 4 шт.)<br>
@@ -72,8 +74,9 @@
 
 	<div class="col-md-6">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-fit="contain">
-			<img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
-			<img src="{THEME}/img/Delta kits Infinity 4.1.jpg">
+				{image-1}{image-2}{image-3}{image-4}{image-5}{image-6}{image-7}
+				<!--img src="{THEME}/img/Delta kits Coat2Protect-3.jpg">
+				<img src="{THEME}/img/Delta kits Infinity 4.1.jpg"-->
 		</div>
 
 	</div>
