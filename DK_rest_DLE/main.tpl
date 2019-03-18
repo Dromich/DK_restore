@@ -321,7 +321,12 @@
 		
 	</div>
 </section>
+<section id="photogalery">
 
+		{custom  category="10"  template="galery" available="main" navigation="no" from="0" limit="20" fixed="no" order="rand" sort="desc" cache="no"}
+
+
+</section>
 <section id="testimonals">
 		<h2>Залиште свій відгук</h2>
 
