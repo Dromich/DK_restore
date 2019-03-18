@@ -225,8 +225,11 @@ main {
 .produkt_ttl {
 	width: 100%;
 	text-align: center;
-	font-size: 25px;
-	margin-top: 25px;
+	font-size: 28px;
+	margin: 25px auto;
+	color: #1E5FB0;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 .item_desc {
 	font-size: 18px;
