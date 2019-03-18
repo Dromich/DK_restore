@@ -36,7 +36,7 @@
 	<script src="{THEME}/libs/modernizr/modernizr.js"></script>
 
 </head>
-
+{AJAX}
 <body>
 	<header>
 
