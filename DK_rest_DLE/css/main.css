@@ -635,3 +635,19 @@ main {
 	#np_selectors{
 		display: none;
 	}
+	.xfieldimagegallery.galery {
+		display: block;
+		width: 100%;
+		list-style: none;
+	}
+	.xfieldimagegallery.galery li {
+		width: 20%;
+		float: left;
+		overflow: hidden;
+		height: 150px;
+	}
+	.xfieldimagegallery.galery li img {
+		width: 100%;
+		height: 100%;
+		border: 3px solid #fff;
+	}
