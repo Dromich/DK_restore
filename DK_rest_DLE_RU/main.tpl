@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="ua">
+<html lang="ru">
 <!--<![endif]-->
 
 <head>
@@ -97,11 +97,10 @@
 				</div>
 			</div>
 			<div class="top_info_block">
-				<h3>Фари вашого автомобіля стали погано світити?</h3>
-				<h3>Після полірування вони знову помутніли і пожовкли ? Стерся захисний шар ? Ви не готові купувати нові
-					дорогі фари ?</h3>
+				<h3>Фары вашей машины стали плохо светить?</h3>
+				<h3>После полировки они опять помутнели и пожелтели ? Стерся защитный слой ? Вы не готовы покупать новые дорогие фары ?</h3>
 
-				<h3 id="exit_on">Вихід є!</h3>
+				<h3 id="exit_on">Выход есть!</h3>
 
 			</div>
 		</div>
@@ -124,7 +123,7 @@
 		<div class="container">
 			<div class="row">
 
-				<h2 class="col-md-12 container_ttl">Сучасні пластикові фари піддаються негативному впливу наступних факторів</h2>
+				<h2 class="col-md-12 container_ttl">Современные пластиковые фары поддаются негативному влиянию следующих факторов</h2>
 
 
 
@@ -133,9 +132,8 @@
 						<img class="box_img" src="{THEME}/img/v1.png" alt="v1">
 					</div>
 					<div class="col-md-6">
-						<h3 class="small_ttl">Механічні</h3>
-						<p>Пов'язані з особливостями дорожнього покриття, попаданням щебеню і дрібного каміння. Найбільш відчутний вплив
-							при їзді за містом та на дорогах, де проводяться ремонтні роботи.</p>
+						<h3 class="small_ttl">Механические</h3>
+						<p>Связаны с особенностями дорожного покрытия, попаданием щебня и мелких камней. Наиболее ощутимо их воздействие при езде за городом и на дорогах, где ведутся ремонтные работы.</p>
 					</div>
 					<hr>
 				</div>
@@ -144,9 +142,8 @@
 
 				<div class="row conditions">
 					<div class="col-md-6">
-						<h3 class="small_ttl">Хімічні</h3>
-						<p>Мийка спеціальними засобами, постійний вплив вихлопних газів і дорожніх реагентів також можуть зіпсувати
-							зовнішній вигляд фар автомобіля. </p>
+						<h3 class="small_ttl">Химические</h3>
+						<p>Мойка специальными средствами, постоянное влияние выхлопных газов и дорожных реагентов также может испортить внешний вид фар атомобиля. </p>
 					</div>
 					<div class="col-md-6">
 						<img class="box_img" src="{THEME}/img/v2.png" alt="v1">
@@ -158,9 +155,8 @@
 						<img class="box_img" src="{THEME}/img/v3.png" alt="v1">
 					</div>
 					<div class="col-md-6">
-						<h3 class="small_ttl">Погодні</h3>
-						<p>Палючі промені сонця пришвидшують старіння полімерів. Мікротріщини та жовтизна фар – це наслідок впливу на
-							фари ультрафіолету. </p>
+						<h3 class="small_ttl">Погодные</h3>
+						<p>Палящие лучи солнца ускоряют старение полимеров. Микротрещины и желтизна фар – это последствия влияния на них ультрафиолета.</p>
 					</div>
 					<hr>
 				</div>
@@ -182,39 +178,32 @@
 					<div class="col-md-6">
 						<ul class="pls_ul">
 							<li>
-								<h2><span>01</span>Ціни</h2>
-								<p>Оптимальне співвідношення ціни та якості продукції.
-									Система знижок для постійних клієнтів. </p>
+								<h2><span>01</span>Цены</h2>
+								<p>Оптимальное соотношение цены и качества продукции.Система скидок для постоянных клиентов.</p>
 							</li>
 							<li>
 								<h2><span>02</span>Доставка</h2>
-								<p>Швидке оформлення замовлення та організація
-									доставки в будь-яку точку України.</p>
+								<p>Быстрое оформление заказа и организация доставки в любую точку Украины.</p>
 							</li>
 							<li>
-								<h2><span>03</span>Якість</h2>
-								<p>Кращий виробник на американському ринку.
-									Прямі поставки з США. </p>
+								<h2><span>03</span>Качество</h2>
+								<p>Лучший изготовитель на американском рынке. Прямые поставки из США. </p>
 							</li>
 							<li>
-								<h2><span>04</span>Терміни</h2>
-								<p>Ми зробимо все щоб Ваше замовлення було
-									оброблене і доставлене Вам у найкоротші терміни.</p>
+								<h2><span>04</span>Сроки</h2>
+								<p>Мы сделаем все, чтобы Ваш заказ был обработан и доставлен в самые короткие сроки.</p>
 							</li>
 							<li>
-								<h2><span>05</span>Консультація</h2>
-								<p>Ми обов'язково проконсультуємо Вас
-									з усіх питань, починаючи з вибору лаку. </p>
+								<h2><span>05</span>Консультация</h2>
+								<p>Мы обязательно проконсультируем Вас по всем вопросам начиная с выбора лака. </p>
 							</li>
 							<li>
-								<h2><span>06</span>Гарантії</h2>
-								<p>Ми гарантуємо вашим фарам довгий термін експлуатації
-									за умови дотримання всіх пунктів інструкції, що додається до набору.</p>
+								<h2><span>06</span>Гарантии</h2>
+								<p>Мы гарантируем Вашим фарам долгий срок эксплуатации при условии соблюдения всех пунктов инструкции, которая прилагается к набору.</p>
 							</li>
 							<li>
-								<h2><span>07</span>Співробітництво</h2>
-								<p>Взаємовигідна співпраця з партнерами.
-									Індивідуальний підхід до клієнта</p>
+								<h2><span>07</span>Сотрудничество</h2>
+								<p>Взаимовыгодное сотрудничество с партнёрами. Индивидуальный подход к клиенту.</p>
 							</li>
 						</ul>
 
@@ -262,8 +251,8 @@
 				<!--img src="img/sale.svg" alt="sale"-->
 <div id="sale"></div>
 
-				<span>Залиште заявку прямо зараз</span>
-				і отримайте знижку на 2 набори <br> DELTA KITS 
+				<span>Оставьте заявку прямо сейчас</span>
+				и получите скидку <br />на 2 набора DELTA KITS
 				
 				<div class="pr_old">580 грн.</div>
 				<div class="pr_new">530  грн.</div>
@@ -273,7 +262,7 @@
 		</div>
 		<div class="col-md-6 sale_form">
 			<div class="order_block">
-				<h4>Залиште заявку на 2 набори і отримайте знижку 10%!</h4>
+				<h4>Оставьте заявку на 2 набора и получите скидку 10%!</h4>
 				
 				<form class="ajax_form">
 					<!-- Hidden Required Fields -->
@@ -297,23 +286,23 @@
 
 
 <section id="about_work">
-		<h2>Як Ми працюємо?</h2>
+		<h2>Как мы работаем?</h2>
 	<div class=" about_work">
 		
 			<div class="hww_one h1 fade2" style="opacity: 1;">
-				Ви залишаєте заявку<br>на придбання лаку.
+				Вы оставляете заявку<br>на покупку лака.
 			</div>
 			<div class="hww_one h2 fade2" style="opacity: 1;">
-				Ми телефонуємо Вам<br>та відповідаємо на запитання, які<br>Вас цікавлять.
+				Мы звоним вам<br>и отвечаем на вопросы, которые<br>вас интересуют.
 			</div>
 			<div class="hww_one h3 fade2" style="opacity: 1;">
-				Ви вибираєте зручний <br>для Вас час та спосіб отримання лаку.
+				Вы выбираете удобное<br>для вас время и способ получения лака. 
 			</div>
 			<div class="hww_one h4 fade2" style="opacity: 1;">
-				Ми в найкоротші терміни <br>відправляємо лак.
+				Мы в самый короткий срок<br>отправляем лак вам.
 			</div>
 			<div class="hww_one h5 fade2" style="opacity: 1;">
-				Ви отримуєте лак<br>для покритття фар!
+				Вы получаете лак<br>для покрытия ваших фар!
 			</div>
 			
 
@@ -323,12 +312,14 @@
 </section>
 <section id="photogalery">
 
+	<h2>Результат после покрытия фар лаком</h2>
+
 		{custom  category="10"  template="galery" available="main" navigation="no" from="0" limit="20" fixed="no" order="rand" sort="desc" cache="no"}
 
 
 </section>
 <section id="testimonals">
-		<h2>Залиште свій відгук</h2>
+		<h2>Оставьте свой отзыв</h2>
 
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -343,22 +334,23 @@
 </section>
 <section class="contacts" id="contacts">
 		<div class="wrap">
-			<h2>Ми знаходимося в м. Тернопіль</h2>
-			<span>Контакти</span>
-			м. Тернопіль
+			<h2>Мы находимся в г. Тернополь</h2>
+			<span>Контакты</span>
+			г. Тернополь 
 			<em>+38 (068) <b>073-01-95</b></em>
 			<em>+38 (099) <b>083-56-54</b></em>
 			<em>+38 (073) <b>092-32-62</b></em>
 			<a id="go"  data-toggle="modal"
-			data-target="#exampleModal2"  class="mc">Замовити дзвінок</a>
+			data-target="#exampleModal2"  class="mc">Заказать звонок</a>
 			
 		</div>
 	</section>
 	<section class="any_q">
 			<div class="wrap">
-				<h2>Залишились запитання?</h2>
+				<h2>Остались вопросы?</h2>
 				<a id="go"   data-toggle="modal"
-				data-target="#exampleModal2"  >Поставте їх нам якнайшвидше!</a>
+				data-target="#exampleModal2"  >Задайте их нам прямо сейчас!
+			</a>
 				<div class="clear"></div>
 			</div>
 		</section>
@@ -374,7 +366,7 @@
 		<div class="modal-content">
 		  <div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<h4 class="modal-title" id="exampleModalLabel">Замовлення товару</h4>
+			<h4 class="modal-title" id="exampleModalLabel">Заказ товара</h4>
 		  </div>
 		  <div class="modal-body">
 			<form class="ajax_form" method="post">
@@ -386,7 +378,7 @@
 <!-- END Hidden Required Fields -->
 
 			  <div class="form-group">
-				<label  for="goods_name" class="control-label">Ваше замовлення</label>
+				<label  for="goods_name" class="control-label">Ваш заказ</label>
 				<input name="Товар" type="text" class="form-control" id="goods_name">
 
 				<input id="price_form" type="hidden" name="ціна">
@@ -406,24 +398,24 @@
 				  </div>
 
 				  <div class="form-group">
-					  <h4>Оберіть спосіб доставки</h4>
+					  <h4>Выберите способ доставки</h4>
 					  <img id="olx_btn" class="deliver_tupe" src="{THEME}/img/logotip-olx.png" alt="OLX">
 					  <img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg" alt="NOVA POSHTA">						
 						
 					  </div>
 
 <div id="np_selectors" class="form-group">
-		<h5>Оберіть місто доставки</h5>
+		<h5>Выберите город</h5>
 		<select name="Місто доставки" class="form-control" id="cities" ></select>
-		<h5>Оберіть віділення </h5>
+		<h5>Выберите отделение </h5>
 		<select name="Віділення НП" class="form-control" id="warehouses"></select>
 </div>
 			
 <div class="form-group">
-	<h5>Оберіть кількість товару</h5>
+	<h5>Количество товаров</h5>
 	<select name="Кількість" size="1" class="form-control" id="goods_count" >
 
-    <option disabled>Оберіть кількість</option>
+    <option disabled>Выберете количество</option>
     <option value="1">1</option>
     <option selected value="2">2</option>
     <option value="3">3</option>
@@ -435,14 +427,14 @@
 </div>
 
 			  <div class="form-group">
-				<label for="message-text" class="control-label">Ваші побажання</label>
+				<label for="message-text" class="control-label">Вашы пожелания</label>
 				<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
 			  </div>
 			
 		  </div>
 		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
-			<button  type="submit" class="sb_btn btn btn-primary">Замовити</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+			<button  type="submit" class="sb_btn btn btn-primary">Заказать</button>
 			
 		  </div>
 		</form>
@@ -456,7 +448,7 @@
 		  <div class="modal-content">
 			<div class="modal-header">
 			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			  <h4 class="modal-title" id="exampleModalLabel">Вкажіть ваше запитання побажання чи пропозицію</h4>
+			  <h4 class="modal-title" id="exampleModalLabel">Ваш ворос или  пожелание</h4>
 			</div>
 			<div class="modal-body">
 		<form class="ajax_form">
@@ -478,12 +470,12 @@
 			<input name="телефон" type="text" class="form-control" id="recipient-phone" placeholder="Ваш телефон" required>
 		  </div>
 		  <div class="form-group">
-			<label for="message-text" class="control-label">Ваші побажання</label>
+			<label for="message-text" class="control-label">Укажите что вас интересует</label>
 			<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
 		  </div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
-				<button  type="submit" class="btn  btn-primary">Надіслати</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+				<button  type="submit" class="btn  btn-primary">Отправить</button>
 				
 			  </div>
 		</form>
