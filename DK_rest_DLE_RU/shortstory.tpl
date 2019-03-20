@@ -19,7 +19,7 @@
 		<hr>
 
 		<div class="price_div">
-			<span class="price">ЦІНА: <span>[xfvalue_price]грн.</span> </span>
+			<span class="price">ЦЕНА: <span>[xfvalue_price]грн.</span> </span>
 
 
 		</div>
@@ -30,7 +30,7 @@
 		data-target="#exampleModal" 
 	   data-whatever="{title}"
 	   data-price="[xfvalue_price]"
-	   data-olx-link="[xfvalue_olx_linck]">ЗАМОВИТИ</div>
+	   data-olx-link="[xfvalue_olx_linck]">Заказать</div>
 	</div>
 
 </div> [/xfnotgiven_rtol]
@@ -48,7 +48,7 @@
 		<hr>
 
 		<div class="price_div">
-			<span class="price">ЦІНА: <span>[xfvalue_price]грн.</span> </span>
+			<span class="price">ЦЕНА: <span>[xfvalue_price]грн.</span> </span>
 
 
 		</div>
@@ -59,7 +59,7 @@
 		data-target="#exampleModal" 
 	   data-whatever="{title}"
 	   data-price="[xfvalue_price]"
-	   data-olx-link="[xfvalue_olx_linck]">ЗАМОВИТИ</div>
+	   data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 	</div>
 
 	<div class="col-md-6">

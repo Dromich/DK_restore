@@ -38,6 +38,11 @@
 </head>
 {AJAX}
 <body>
+<div class="lang_ch">
+	<span>Українська</span>
+	<a href="/ua/"><img src="{THEME}/img/Flag_of_Ukraine.svg" alt="UA"></a>
+</div>
+
 	<header>
 
 		<div class="header_top_menu">

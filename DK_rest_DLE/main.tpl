@@ -38,6 +38,11 @@
 </head>
 {AJAX}
 <body>
+		<div class="lang_ch">
+				<span>Руский</span>
+				<a href="/ru/"><img src="{THEME}/img/Flag_of_Russia.svg" alt="RU"></a>
+			</div>
+			
 	<header>
 
 		<div class="header_top_menu">

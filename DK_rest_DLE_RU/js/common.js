@@ -76,7 +76,7 @@ $('#exampleModal2').on('shown.bs.modal', function () {
 $('#exampleModal').on('show.bs.modal', function (event) {
 
 	$('.ajax_form').trigger("reset");
-	$("#cities").load( "/file.php" );
+	$("#cities").load( "/file_ru.php" );
 
 
 	
@@ -87,7 +87,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 		var wh = $("#cities option:selected").data('cname')
 
         $.ajax({
-            url : '/file.php',
+            url : '/file_ru.php',
             type : 'POST',
             data : {
                 'warehouses' : wh,
@@ -97,7 +97,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
             },
             error : function(request,error)
             {
-                $('#warehouses').html('<h2>Виникла помилка</h2>');
+                $('#warehouses').html('<h2>Ошибка</h2>');
             }
         });
     })
@@ -122,7 +122,7 @@ setTimeout(() => {
 
 	var recipient = button.data('whatever') 
 	var modal = $(this)
-	modal.find('.modal-title').text('Замовлення товару ' + recipient)
+	modal.find('.modal-title').text('Заказ товара ' + recipient)
 	modal.find('#goods_name').val(recipient)
 	modal.find('#price_form').val(button.data('price'))
 	

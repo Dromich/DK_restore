@@ -750,3 +750,27 @@ main {
 	font-size: 34px;
 	text-transform: uppercase;
 }
+.lang_ch img {
+	max-width: 40px;
+	display: block;
+	margin: 0 auto;
+}
+.lang_ch {
+	position: fixed;
+	z-index: 555;
+	width: 90px;
+	top: 50vh;
+	left: -25px;
+	color: #333;
+	transition: all .5s;
+
+}
+.lang_ch:hover{
+	left: 5px;
+}
+.lang_ch span {
+	display: none;
+}
+.lang_ch:hover span {
+	display: block;
+}
