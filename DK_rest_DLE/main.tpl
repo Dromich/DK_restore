@@ -92,7 +92,22 @@
 		</div>
 		<div class="c2">
 
-			<div class="car1 cl">
+
+			<div class="container">
+				<div class="row">
+						<div class="col-md-6 col-xs-12">
+
+								<div class="top_info_block">
+										<h3>Фари вашого автомобіля стали погано світити?</h3>
+										<h3>Після полірування вони знову помутніли і пожовкли ? Стерся захисний шар ? Ви не готові купувати нові
+											дорогі фари ?</h3>
+						
+										<h3 id="exit_on">Вихід є!</h3>
+						
+									</div>
+						</div>
+<div class="col-md-6 col-xs-12">
+		<div class="car1 cl">
 				<div class="preview noselect scroll animated">
 					<div class="line">
 						<div class="mark"></div>
@@ -101,14 +116,14 @@
 					<div class="car_a"></div>
 				</div>
 			</div>
-			<div class="top_info_block">
-				<h3>Фари вашого автомобіля стали погано світити?</h3>
-				<h3>Після полірування вони знову помутніли і пожовкли ? Стерся захисний шар ? Ви не готові купувати нові
-					дорогі фари ?</h3>
+</div>
 
-				<h3 id="exit_on">Вихід є!</h3>
 
+				</div>
 			</div>
+
+		
+			
 		</div>
 
 	</header>
