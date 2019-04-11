@@ -57,15 +57,15 @@
 					</div>
 					<div class="col-md-8">
 						<ul class="top_menu">
-							<li><a href="/">item1</a></li>
-							<li><a href="/">item2</a></li>
-							<li><a href="/">item3</a></li>
-							<li><a href="/">item4</a></li>
-							<li><a href="/">item5</a></li>
-							<li><a href="/">item6</a></li>
-							<li><a href="/">item7</a></li>
-							<li><a href="/">item8</a></li>
-							<li><a href="/">item9</a></li>
+							<li><a class="flowing-scroll" data-target="#goods_items" href="/">item1</a></li>
+							<li><a class="flowing-scroll" data-target="#factors" href="/">factors</a></li>
+							<li><a class="flowing-scroll" data-target="#pluses" href="/">pluses</a></li>
+							<li><a class="flowing-scroll" data-target="#youTube" href="/">youTube</a></li>
+							<li><a class="flowing-scroll" data-target="#two_kit" href="/">two_kit</a></li>
+							<li><a class="flowing-scroll" data-target="#about_work" href="/">about_work</a></li>
+							<li><a class="flowing-scroll" data-target="#photogalery" href="/">photogalery</a></li>
+							<li><a class="flowing-scroll" data-target="#contacts" href="/">contacts</a></li>
+							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Відгуки</a></li>
 						</ul>
 
 					</div>
@@ -102,7 +102,7 @@
 										<h3>Після полірування вони знову помутніли і пожовкли ? Стерся захисний шар ? Ви не готові купувати нові
 											дорогі фари ?</h3>
 						
-										<h3 id="exit_on">Вихід є!</h3>
+										<h3 class="flowing-scroll" data-target="#goods_items" id="exit_on">Вихід є!</h3>
 						
 									</div>
 						</div>
@@ -131,7 +131,7 @@
 
 	<main>
 
-		<div class="container produkt_items">
+		<div id="goods_items" class="container produkt_items">
 			
 
 
@@ -141,7 +141,7 @@
 		<!--END PRODUKTS-->
 
 
-		<div class="container">
+		<div id="factors" class="container">
 			<div class="row">
 
 				<h2 class="col-md-12 container_ttl">Сучасні пластикові фари піддаються негативному впливу наступних факторів</h2>
