@@ -103,10 +103,10 @@ header {
 }
 .top_menu li {
 	display: inline-block;
-	width: 10%;
 	text-align: center;
 	margin: 40px auto;
 	transition: all .25s;
+	padding-left: 10px;
 }
 .top_menu li a {
 	color: #fff;
