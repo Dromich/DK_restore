@@ -157,6 +157,27 @@ $('.flowing-scroll').on( 'click', function(){
             scrollTop: $(dest).offset().top 
         }, 1200 
         );
-    }
+	}
+	//$('#main_menu').slideToggle();
     return false;
+});
+
+$('#mob_menu_btn').click(function (e) { 
+	e.preventDefault();
+	$('#main_menu').slideToggle();
+
+if ($(this).hasClass('but_to_right')) {
+	$(this).removeClass('but_to_right');
+	$(this).css('left', 0);
+	$(this).html('<img src="/templates/DK_rest_DLE/img/menu.png" alt="menu_icon">');
+	
+}else{
+	$(this).addClass('but_to_right');
+	$(this).css('left', 250);
+	$(this).html('<img src="/templates/DK_rest_DLE/img/close.png" alt="menu_icon">');
+}
+
+
+
+	
 });
