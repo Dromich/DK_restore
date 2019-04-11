@@ -144,12 +144,19 @@ $(window).load(function () {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
-// возвращает уникальный короткий ID в заданном числовом диапазоне
 
-  
- // var id = getRandomID(0, 1679615);
-  
-//   setInterval(() => {
-// 	  console.log(getRandomID(0, 1679615))
-//   }, 1000);
+});
+
+
+	
+$('.flowing-scroll').on( 'click', function(){ 
+    
+    var dest = $(this).attr('data-target'); 
+    if(dest !== undefined && dest !== '') { 
+        $('html').animate({ 
+            scrollTop: $(dest).offset().top 
+        }, 1200 
+        );
+    }
+    return false;
 });
