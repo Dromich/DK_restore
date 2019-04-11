@@ -136,14 +136,16 @@ header {
 
 .c2 {
 	position: absolute;
-	bottom: 10%;
-	left: 30%;
-	width: 40%;
-	/* border: 1px solid; */
+	bottom: 25%;
+	left: 0;
+	width: 100%;
 }
 .c2 .car1 {
 	position: relative;
-	padding-top: 10px;
+	
+	margin-top: -40px;
+	margin-bottom: 20px;
+	margin-left: 80px;
 	
 }
 
