@@ -12,9 +12,46 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	#main_menu {
+		background-color: #121111;
+		color: #333;
+		position: fixed;
+		z-index: 5;
+		width: 300px;
+		height: auto;
+		top: 0;
+		 left: -300px; 
+		transition: all .8s;
+	}
+	.top_menu li {
+		display: block;
+		text-align: left;
+		margin: 10px auto;
+		transition: all .25s;
+		padding-left: 0;
+		width: 90%;
+	}
+	.top_tel_wrp {
+		padding-top: 8px;
+		text-align: center;
+	}
+	.logo_a {
+		padding: 0;
+		/* margin-top: 5px; */
+	}
+	.top_info_block h3 {
+		font-family: 'Russo One', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.logo_a img {
+		max-width: 90%;
+		display: block;
+		margin: 10px auto;
+	}
 	.c2 {
 		position: absolute;
-		bottom: 0;
+		bottom: 10px;
 		left: 0;
 		width: 100%;
 		height: auto;
@@ -23,9 +60,7 @@
 	.c2 .car1 {
 		display: none;
 	}
-	.header_top_menu{
-		display: none;
-	}
+	
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {

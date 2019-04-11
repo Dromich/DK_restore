@@ -49,13 +49,13 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-12">
 						<a class="logo_a" href="/">
 							<img src="{THEME}/img/logo.png" alt="logo">
 						</a>
 
 					</div>
-					<div class="col-md-8">
+					<div id="main_menu" class="col-md-8 ">
 						<ul class="top_menu">
 							<li><a class="flowing-scroll" data-target="#goods_items" href="/">item1</a></li>
 							<li><a class="flowing-scroll" data-target="#factors" href="/">factors</a></li>
@@ -69,7 +69,7 @@
 						</ul>
 
 					</div>
-					<div class="col-md-2 top_tel_wrp">
+					<div class="col-md-2 top_tel_wrp col-xs-12">
 						<a class="top_tel" href="tel:+380730923262">+38 (068) 073-01-95</a>
 						<a class="top_tel" href="tel:+380990835654">+38 (099) 083-56-54</a>
 						<a class="top_tel" href="tel:+380730923262">+38 (073) 092-32-62</a>
