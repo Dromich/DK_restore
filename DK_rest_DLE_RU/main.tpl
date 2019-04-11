@@ -347,8 +347,7 @@
 
 			<h2>Результат после покрытия фар лаком</h2>
 
-			{custom category="10" template="galery" available="main" navigation="no" from="0" limit="20" fixed="no"
-			order="rand" sort="desc" cache="no"}
+			{custom category="10" template="galery" available="main" navigation="no" from="0" limit="20" fixed="no"	order="rand" sort="desc" cache="no"}
 
 
 		</section>
