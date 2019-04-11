@@ -391,7 +391,12 @@
 <!-- END Hidden Required Fields -->
 
 			  <div class="form-group">
-				<label  for="goods_name" class="control-label">Ваше замовлення</label>
+					
+				<label  for="goods_name" class="control-label">Ваше замовлення № <span id="costumer_id"></span></label>
+
+
+				<input name="Номер покупки" type="hidden" class="form-control" id="goods_id">
+
 				<input name="Товар" type="text" class="form-control" id="goods_name">
 
 				<input id="price_form" type="hidden" name="ціна">

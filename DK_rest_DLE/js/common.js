@@ -113,16 +113,24 @@ setTimeout(() => {
 		
 	});
 
+	function getRandomID(min, max) {
+		var int = Math.floor(Math.random() * (max - min + 1)) + min;
+	  
+		return int
+	  }
+
 	$('#np_btn').click(function (e) { 
 		e.preventDefault();		
 		$('#np_selectors').slideToggle()
 	});
 
 	var button = $(event.relatedTarget) 
-
+let costID = getRandomID(0, 1679615);
 	var recipient = button.data('whatever') 
 	var modal = $(this)
 	modal.find('.modal-title').text('Замовлення товару ' + recipient)
+	modal.find('#goods_id').val(costID)
+	modal.find('#costumer_id').text(costID)
 	modal.find('#goods_name').val(recipient)
 	modal.find('#price_form').val(button.data('price'))
 	
@@ -130,11 +138,18 @@ setTimeout(() => {
 
 
 
-
+ 
 
 $(window).load(function () {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
+// возвращает уникальный короткий ID в заданном числовом диапазоне
 
+  
+ // var id = getRandomID(0, 1679615);
+  
+//   setInterval(() => {
+// 	  console.log(getRandomID(0, 1679615))
+//   }, 1000);
 });
