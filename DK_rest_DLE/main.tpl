@@ -42,6 +42,11 @@
 				<span>Руский</span>
 				<a href="/ru/"><img src="{THEME}/img/Flag_of_Russia.svg" alt="RU"></a>
 			</div>
+
+			<div id="mob_menu_btn">
+				<img src="{THEME}/img/menu.png" alt="menu_icon">
+
+			</div>
 			
 	<header>
 
