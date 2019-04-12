@@ -348,36 +348,22 @@ main {
 	padding: 20px;
 }
 .pr_new {
-	display: block;
-	margin-top: 120px;
-	width: 200px;
-	padding: 10px;
-	background-color: #2273ec;
-	color: #fff;
+	
+	color: #333;
 	text-align: center;
-	font-size: 20px;
-	/* position: absolute; */
-	/* bottom: 10px; */
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 4rem;
+	display: block;
 }
 .pr_old {
 	text-decoration: line-through;
 	font-size: 32px;
 	color: red;
-	width: 100%;
-	text-align: center;
-	/* margin-top: 50px; */
-	margin-bottom: -70px;
-}
-.timer_block span {
-	font-weight: 600;
-	font-size: 1.9rem;
-	display: block;
-	text-align: center;
-	color: #306FBA;
-	text-transform: uppercase;
 	
+}
+.timer_block .price_div {
+	/* color: red; */
+	padding: 15px;
+	/* margin: 20px auto; */
 }
 .timer_block {
 	background-color: #fff;
@@ -396,7 +382,9 @@ main {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 }
-
+.timer_block h3 {
+	margin-top: -0px;
+}
 
 
 #sale {
@@ -786,4 +774,55 @@ main {
 }
 #mob_menu_btn img {
 	max-width: 100%;
+}
+.sale_ttl {
+	width: 100%;
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#end_clock {
+	/* display: block; */
+	width: 100%;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: red;
+	padding: 15px;
+	background-color: #fff;
+	text-align: center;
+	display: none;
+}
+#clockdiv {
+	display: block;
+	padding: 20px;
+	background-color: #1e5fb0;
+	color: #fff;
+	width: 100%;
+	justify-content: center;
+	height: auto;
+	margin-top: 35px;
+}
+.clock_item {
+	display: inline-block;
+	width: 20%;
+	/* padding: 10px; */
+	text-align: center;
+	font-size: 5.5rem;
+	font-weight: 600;
+	border: 3px solid;
+	margin-left: 15px;
+	border-radius: 15px;
+}
+.clock_item div {
+	font-size: 1.8rem;
+}
+.timer_ttl {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: -10px;
+	padding: 15px;
 }
