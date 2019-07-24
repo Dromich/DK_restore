@@ -383,12 +383,12 @@
 						<div class="form-group">
 
 							<input name="ім'я" type="text" class="form-control" id="recipient-name"
-								placeholder="Ваше ім'я" required>
+								placeholder="Ваше имя" required>
 						</div>
 						<div class="form-group">
 
 							<input name="Прізвище" type="text" class="form-control" id="recipient-altname"
-								placeholder="Ваше прізвище" required>
+								placeholder="Ваша фамилия" required>
 						</div>
 						<div class="form-group">
 
