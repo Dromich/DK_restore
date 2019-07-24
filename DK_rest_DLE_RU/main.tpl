@@ -190,10 +190,10 @@
 
 
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v1.png" alt="v1">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Механические</h3>
 						<p>Связаны с особенностями дорожного покрытия, попаданием щебня и мелких камней. Наиболее
 							ощутимо их воздействие при езде за городом и на дорогах, где ведутся ремонтные работы.</p>
@@ -204,21 +204,21 @@
 
 
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Химические</h3>
 						<p>Мойка специальными средствами, постоянное влияние выхлопных газов и дорожных реагентов также
 							может испортить внешний вид фар атомобиля. </p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v2.png" alt="v1">
 					</div>
 					<hr>
 				</div>
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v3.png" alt="v1">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Погодные</h3>
 						<p>Палящие лучи солнца ускоряют старение полимеров. Микротрещины и желтизна фар – это
 							последствия влияния на них ультрафиолета.</p>
