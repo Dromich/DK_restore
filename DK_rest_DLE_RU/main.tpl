@@ -43,7 +43,10 @@
 		<span>Українська</span>
 		<a href="/ua/"><img src="{THEME}/img/Flag_of_Ukraine.svg" alt="UA"></a>
 	</div>
+	<div id="mob_menu_btn">
+		<img src="{THEME}/img/menu.png" alt="menu_icon">
 
+	</div>
 	<header>
 
 		<div class="header_top_menu">
@@ -56,7 +59,7 @@
 						</a>
 
 					</div>
-					<div class="col-md-8">
+					<div id="main_menu" class="col-md-8">
 						<ul class="top_menu">
 							<li><a class="flowing-scroll" data-target="#goods_items" href="/">item1</a></li>
 							<li><a class="flowing-scroll" data-target="#factors" href="/">factors</a></li>
