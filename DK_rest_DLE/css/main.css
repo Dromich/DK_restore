@@ -631,7 +631,7 @@ main {
 		list-style: none;
 	}
 	.xfieldimagegallery.galery li {
-		width: 20%;
+		width: 25%;
 		float: left;
 		overflow: hidden;
 		height: 150px;
