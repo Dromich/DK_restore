@@ -113,7 +113,7 @@
 
 						</div>
 					</div>
-					<div class="col-md-12 col-xs-12">
+					<div id="car_glas" class="col-md-12 col-xs-12">
 						<div class="car1 cl">
 							<div class="preview noselect scroll animated">
 								<div class="line">
