@@ -101,7 +101,7 @@
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-12 col-xs-12">
 
 						<div class="top_info_block">
 							<h3>Фари вашого автомобіля стали погано світити?</h3>
@@ -113,7 +113,7 @@
 
 						</div>
 					</div>
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-12 col-xs-12">
 						<div class="car1 cl">
 							<div class="preview noselect scroll animated">
 								<div class="line">
