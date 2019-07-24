@@ -1,7 +1,7 @@
 
 
 [xfnotgiven_rtol]<div class="row">
-	<h2 class="produkt_ttl">{title}</h2>
+	<h2 class="produkt_ttl">[xfvalue_rus_title]</h2>
 	<div class="col-md-6">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-allowfullscreen="true" data-fit="contain">
 				[xfvalue_img_1]
@@ -14,7 +14,7 @@
 	</div>
 	<div class="col-md-6">
 			<p class="item_desc"></p>
-			{short-story}
+			[xfvalue_rus_short]
 
 		<hr>
 
@@ -28,7 +28,7 @@
 		<div class="buy_btn"
 		data-toggle="modal"
 		data-target="#exampleModal" 
-	   data-whatever="{title}"
+	   data-whatever="[xfvalue_rus_title]"
 	   data-price="[xfvalue_price]"
 	   data-olx-link="[xfvalue_olx_linck]">Заказать</div>
 	</div>
@@ -36,11 +36,11 @@
 </div> [/xfnotgiven_rtol]
 
 [xfgiven_rtol]<div class="row">
-	<h2 class="produkt_ttl">{title}</h2>
+	<h2 class="produkt_ttl">[xfvalue_rus_title]</h2>
 	
 	<div class="col-md-6">
 		<p class="item_desc"></p>
-		{short-story}
+		[xfvalue_rus_short]
 
 		
 
@@ -57,7 +57,7 @@
 		<div class="buy_btn"
 		data-toggle="modal"
 		data-target="#exampleModal" 
-	   data-whatever="{title}"
+	   data-whatever="[xfvalue_rus_title]"
 	   data-price="[xfvalue_price]"
 	   data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 	</div>
