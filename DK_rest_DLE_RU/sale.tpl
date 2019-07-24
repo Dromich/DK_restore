@@ -8,7 +8,7 @@
 					<!--img src="img/sale.svg" alt="sale"-->
 					<div id="sale"></div>
 
-					<h3>{title}</h3>
+					<h3>[xfvalue_rus_title]</h3>
 
 					<div class="price_div">
 						<span class="pr_old">[xfvalue_price] грн.</span>
