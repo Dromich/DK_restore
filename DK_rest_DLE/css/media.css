@@ -12,6 +12,131 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.main_top_seo h3 {
+		font-size: 20px;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+	.main_top_seo li {
+		font-size: 14px;
+		margin: 8px auto;
+	}
+	.main_top_seo p {
+		font-size: 16px;
+	}
+	.produkt_ttl {
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+		margin: 25px auto;
+		color: #1E5FB0;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 10px;
+	}
+	#factors .col-xs-12 p {
+		margin-left: 15px;
+		text-align: left;
+		padding-right: 5px;
+	}
+	#factors .col-xs-12 h3 {
+		margin-left: 15px;
+	}
+	.col-md-12.container_ttl {
+		font-size: 22px;
+		
+	}
+	.pls_ul li p {
+		
+		font-size: 12px;
+	}
+	.pls_ul li h2 {
+	
+		font-size: 20px;
+	}
+	.sale_ttl {
+		width: 100%;
+		text-align: center;
+		margin: 15px auto;
+		display: block;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.clock_item div {
+		font-size: 1rem;
+	}
+	#clockdiv {
+		display: block;
+		padding: 10px;
+		background-color: #1e5fb0;
+		color: #fff;
+		width: 100%;
+		justify-content: center;
+		height: auto;
+		margin-top: 75px;
+	}
+	.clock_item {
+		display: inline-block;
+		width: 20%;
+		padding: 10px;
+		text-align: center;
+		font-size: 1rem;
+		font-weight: 600;
+		border: 2px solid;
+		margin-left: 5px;
+		border-radius: 15px;
+	}
+	.timer_ttl {
+		padding: 15px;
+		font-size: 14px;
+	}
+	#two_kit {
+		
+		height: 600px;
+	}
+	.timer_block {
+		background-color: #fff;
+		height: 290px;
+		border-radius: 17px;
+		text-align: left;
+		padding: 15px;
+		color: black;
+		font-size: 1.8rem;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		background-image: url(../img/Delta\ kits\ .jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+	}
+	.sale_info {
+		padding: 0;
+		margin: 0;
+	}
+	#end_clock {
+		/* display: block; */
+		width: 100%;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		color: red;
+		padding: 10px;
+		background-color: #fff;
+		text-align: center;
+		display: none;
+		margin-top: 28%;
+	}
+	#about_work {
+		display: none;
+	}
+	.xfieldimagegallery.galery li {
+		width: 50%;
+		float: left;
+		overflow: hidden;
+		height: 150px;
+	}
 	#mob_menu_btn {
 		display: block;
 	}
@@ -92,6 +217,21 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.xfieldimagegallery.galery {
+		display: block;
+		width: 100%;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.xfieldimagegallery.galery li {
+		width: 100%;
+		float: none;
+		overflow: hidden;
+		height: auto;
+		display: block;
+		margin: 8pz auto;
+	}
 
 }
 

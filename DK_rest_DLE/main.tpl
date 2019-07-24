@@ -197,10 +197,10 @@
 
 
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v1.png" alt="v1">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Механічні</h3>
 						<p>Пов'язані з особливостями дорожнього покриття, попаданням щебеню і дрібного каміння. Найбільш
 							відчутний вплив
@@ -212,22 +212,22 @@
 
 
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Хімічні</h3>
 						<p>Мийка спеціальними засобами, постійний вплив вихлопних газів і дорожніх реагентів також
 							можуть зіпсувати
 							зовнішній вигляд фар автомобіля. </p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v2.png" alt="v1">
 					</div>
 					<hr>
 				</div>
 				<div class="row conditions">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<img class="box_img" src="{THEME}/img/v3.png" alt="v1">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<h3 class="small_ttl">Погодні</h3>
 						<p>Палючі промені сонця пришвидшують старіння полімерів. Мікротріщини та жовтизна фар – це
 							наслідок впливу на
