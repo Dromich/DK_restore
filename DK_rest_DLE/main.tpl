@@ -63,14 +63,16 @@
 					</div>
 					<div id="main_menu" class="col-md-8 ">
 						<ul class="top_menu">
-							<li><a class="flowing-scroll" data-target="#goods_items" href="/">item1</a></li>
-							<li><a class="flowing-scroll" data-target="#factors" href="/">factors</a></li>
-							<li><a class="flowing-scroll" data-target="#pluses" href="/">pluses</a></li>
-							<li><a class="flowing-scroll" data-target="#youTube" href="/">youTube</a></li>
-							<li><a class="flowing-scroll" data-target="#two_kit" href="/">two_kit</a></li>
-							<li><a class="flowing-scroll" data-target="#about_work" href="/">about_work</a></li>
-							<li><a class="flowing-scroll" data-target="#photogalery" href="/">photogalery</a></li>
-							<li><a class="flowing-scroll" data-target="#contacts" href="/">contacts</a></li>
+							<li><a class="flowing-scroll" data-target="#goods_items" href="/">Набори для фар</a></li>
+							<li><a class="flowing-scroll" data-target="#factors" href="/">Чому жовтіють фари?</a></li>
+							<li><a class="flowing-scroll" data-target="#pluses" href="/">Чому обирають нас? </a></li>
+							<li><a class="flowing-scroll" data-target="#youTube" href="/">YouTube</a></li>
+							<li><a class="flowing-scroll" data-target="#two_kit" href="/">Акція</a></li>
+						</ul>
+							<ul class="top_menu">
+							<li><a class="flowing-scroll" data-target="#about_work" href="/">Як замовити?</a></li>
+							<li><a class="flowing-scroll" data-target="#photogalery" href="/">Галерея</a></li>
+							<li><a class="flowing-scroll" data-target="#contacts" href="/">Контакти</a></li>
 							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Відгуки</a></li>
 						</ul>
 

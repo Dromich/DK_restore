@@ -149,7 +149,8 @@ $(window).load(function () {
 
 
 	
-$('.flowing-scroll').on( 'click', function(){ 
+$('.flowing-scroll').on( 'click', function(e){ 
+	e.preventDefault();
     
     var dest = $(this).attr('data-target'); 
     if(dest !== undefined && dest !== '') { 
