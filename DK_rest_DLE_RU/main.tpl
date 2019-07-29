@@ -317,7 +317,7 @@
 
 <!--Specials SALE-->
 
-{custom category="11" template="sale" available="main" navigation="no" from="0" limit="1" fixed="no" order="rand" sort="desc" cache="no"}
+{custom category="11" template="sale" available="main" navigation="no" from="0"  fixed="no"  cache="no"}
 
 
 		<section id="about_work">
