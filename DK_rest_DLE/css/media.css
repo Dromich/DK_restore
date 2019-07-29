@@ -12,6 +12,18 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.contacts .wrap {
+		width: 100%;		
+		padding: 35px;		
+		font-size: 18px;
+		
+	}
+	.any_q a {
+	font-size: 18px;
+	}
+	.any_q h2 {
+		font-size: 26px;
+	}
 	#sale {
 left: 0;
 	}
