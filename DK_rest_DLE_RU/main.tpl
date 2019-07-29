@@ -59,17 +59,19 @@
 						</a>
 
 					</div>
-					<div id="main_menu" class="col-md-8">
+					<div id="main_menu" class="col-md-8 ">
 						<ul class="top_menu">
-							<li><a class="flowing-scroll" data-target="#goods_items" href="/">item1</a></li>
-							<li><a class="flowing-scroll" data-target="#factors" href="/">factors</a></li>
-							<li><a class="flowing-scroll" data-target="#pluses" href="/">pluses</a></li>
-							<li><a class="flowing-scroll" data-target="#youTube" href="/">youTube</a></li>
-							<li><a class="flowing-scroll" data-target="#two_kit" href="/">two_kit</a></li>
-							<li><a class="flowing-scroll" data-target="#about_work" href="/">about_work</a></li>
-							<li><a class="flowing-scroll" data-target="#photogalery" href="/">photogalery</a></li>
-							<li><a class="flowing-scroll" data-target="#contacts" href="/">contacts</a></li>
-							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Відгуки</a></li>
+							<li><a class="flowing-scroll" data-target="#goods_items" href="/">Наборы для фар</a></li>
+							<li><a class="flowing-scroll" data-target="#factors" href="/">Почему фары желтеют?</a></li>
+							<li><a class="flowing-scroll" data-target="#pluses" href="/">Почему мы? </a></li>
+							<li><a class="flowing-scroll" data-target="#youTube" href="/">YouTube</a></li>
+							<li><a class="flowing-scroll" data-target="#two_kit" href="/">Акция</a></li>
+						</ul>
+							<ul class="top_menu">
+							<li><a class="flowing-scroll" data-target="#about_work" href="/">Как заказать?</a></li>
+							<li><a class="flowing-scroll" data-target="#photogalery" href="/">Галерея</a></li>
+							<li><a class="flowing-scroll" data-target="#contacts" href="/">Контакты</a></li>
+							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Отзивы</a></li>
 						</ul>
 
 					</div>
@@ -344,8 +346,9 @@
 			</div>
 		</section>
 		<section id="photogalery">
+			<!--<h2>Результат после покрытия фар лаком</h2>-->
 
-			<h2>Результат после покрытия фар лаком</h2>
+			
 
 			{custom category="10" template="galery" available="main" navigation="no" from="0" limit="20" fixed="no"	order="rand" sort="desc" cache="no"}
 
