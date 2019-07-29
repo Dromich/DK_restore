@@ -383,6 +383,7 @@ main {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom center;
+	
 }
 .timer_block h3 {
 	margin-top: -0px;
@@ -593,6 +594,7 @@ main {
 		-webkit-transition: all 0.4s;
 		-moz-transition: all 0.4s;
 		transition: all 0.4s;
+		cursor: pointer;
 	}
 	.white-popup {
 		position: relative;
