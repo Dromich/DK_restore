@@ -387,6 +387,9 @@ main {
 }
 .timer_block h3 {
 	margin-top: -0px;
+	/* border: 2px solid red; */
+	height: 90px;
+	overflow: hidden;
 }
 
 
