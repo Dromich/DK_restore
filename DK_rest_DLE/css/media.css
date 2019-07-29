@@ -138,9 +138,24 @@ left: 0;
 		display: none;
 		margin-top: 28%;
 	}
-	#about_work {
-		display: none;
+	.about_work {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		height: 1300px;
+		
 	}
+	.hww_one {
+		position: relative;
+		padding: 25px 0 0 100px;
+		height: 132px;
+		font-size: 18px;
+		line-height: 22px;
+		color: #303131;
+		display: block;
+		left: 10px !important;
+	}
+
 	.xfieldimagegallery.galery li {
 		width: 50%;
 		float: left;
