@@ -410,7 +410,7 @@
 
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
+						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Замовлення">
 						<!-- END Hidden Required Fields -->
 
@@ -497,7 +497,7 @@
 					<form class="ajax_form">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
+						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Ваш ворос или пожелание">
 						<!-- END Hidden Required Fields -->
 
