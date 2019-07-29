@@ -2,7 +2,7 @@
 [desktop] 
 [xfnotgiven_rtol]<div class="row">
 	<h2 class="produkt_ttl">{title}</h2>
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-allowfullscreen="true" data-fit="contain">
 				[xfvalue_img_1]
 				[xfvalue_img_2]
@@ -12,7 +12,7 @@
 		</div>
 
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 			<p class="item_desc"></p>
 			{short-story}
 
@@ -38,7 +38,7 @@
 [xfgiven_rtol]<div class="row">
 	<h2 class="produkt_ttl">{title}</h2>
 	
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 		<p class="item_desc"></p>
 		{short-story}
 
@@ -62,7 +62,7 @@
 	   data-olx-link="[xfvalue_olx_linck]">ЗАМОВИТИ</div>
 	</div>
 
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-allowfullscreen="true" data-fit="contain">
 				
 				[xfvalue_img_1]
@@ -85,7 +85,7 @@
 
 <div class="row">
 	<h2 class="produkt_ttl">{title}</h2>
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 		<div class="fotorama" data-nav="thumbs" data-width="100%" data-height="330" data-allowfullscreen="true" data-fit="contain">
 				[xfvalue_img_1]
 				[xfvalue_img_2]
@@ -95,7 +95,7 @@
 		</div>
 
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 col-xs-12">
 			<p class="item_desc"></p>
 			{short-story}
 
