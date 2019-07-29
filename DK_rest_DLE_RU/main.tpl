@@ -71,7 +71,7 @@
 							<li><a class="flowing-scroll" data-target="#about_work" href="/">Как заказать?</a></li>
 							<li><a class="flowing-scroll" data-target="#photogalery" href="/">Галерея</a></li>
 							<li><a class="flowing-scroll" data-target="#contacts" href="/">Контакты</a></li>
-							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Отзивы</a></li>
+							<li><a class="flowing-scroll" data-target="#testimonals" href="/">Отзывы</a></li>
 						</ul>
 
 					</div>
@@ -470,7 +470,7 @@
 
 						<div class="form-group">
 							<label for="message-text" class="control-label">Вашы пожелания</label>
-							<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
+							<textarea name="Сообщение" class="form-control" id="message-text"></textarea>
 						</div>
 
 				</div>
@@ -498,7 +498,7 @@
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
 						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com">
-						<input type="hidden" name="form_subject" value="Замовлення">
+						<input type="hidden" name="form_subject" value="Ваш ворос или пожелание">
 						<!-- END Hidden Required Fields -->
 
 
@@ -506,7 +506,7 @@
 						<div class="form-group">
 
 							<input name="ім'я" type="text" class="form-control" id="recipient-name"
-								placeholder="Ваше ім'я" required>
+								placeholder="Ваше имя" required>
 						</div>
 
 						<div class="form-group">
@@ -516,7 +516,7 @@
 						</div>
 						<div class="form-group">
 							<label for="message-text" class="control-label">Укажите что вас интересует</label>
-							<textarea name="Повідомлення" class="form-control" id="message-text"></textarea>
+							<textarea name="Сообщение" class="form-control" id="message-text"></textarea>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
