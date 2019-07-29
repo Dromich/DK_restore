@@ -12,6 +12,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	#two_kit {
+	
+		padding: 20px;
+	}
+	.timer_block h3 {
+		font-size: 14px;
+	}
 	.main_top_seo h3 {
 		font-size: 20px;
 		margin-bottom: 25px;
@@ -61,7 +68,7 @@
 		display: block;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.clock_item div {
 		font-size: 1rem;
