@@ -18,7 +18,7 @@
 
 
 
-					<div class="buy_btn" data-toggle="modal" data-target="#exampleModal" data-whatever="{title}"
+					<div class="buy_btn" data-toggle="modal" data-target="#exampleModal" data-whatever="[xfvalue_rus_title]"
 						data-price="[xfvalue_new_price]" data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 				</div>
 			</div>
