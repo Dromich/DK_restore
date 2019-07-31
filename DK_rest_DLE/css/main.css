@@ -863,3 +863,11 @@ main {
 	margin-top: 2%;
 	margin-bottom: -10%;
 }
+.new_prod_price {
+	font-size: 28px;
+	margin-left: 10px;
+}
+.new_prod_price::after {
+	content: "грн.";
+	margin-left: 5px;
+}
