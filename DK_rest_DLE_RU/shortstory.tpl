@@ -19,7 +19,7 @@
 		<hr>
 
 		<div class="price_div">
-			<span class="price">ЦЕНА: <span>[xfvalue_price]грн.</span> </span>
+			<span class="price" >ЦЕНА: <span [xfgiven_new_price] style="text-decoration: line-through;color:red;" [/xfgiven_new_price] >[xfvalue_price]грн.</span> [xfgiven_new_price]<span class="new_prod_price">[xfvalue_new_price]</span>[/xfgiven_new_price] </span>
 
 
 		</div>
@@ -29,8 +29,9 @@
 		data-toggle="modal"
 		data-target="#exampleModal" 
 	   data-whatever="[xfvalue_rus_title]"
-	   data-price="[xfvalue_price]"
-	   data-olx-link="[xfvalue_olx_linck]">Заказать</div>
+	   [xfnotgiven_new_price]data-price="[xfvalue_price]"[/xfnotgiven_new_price]
+	   [xfgiven_new_price]data-price="[xfvalue_new_price]"[/xfgiven_new_price]
+	   data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 	</div>
 
 </div> [/xfnotgiven_rtol]
@@ -47,8 +48,9 @@
 
 		<hr>
 
+		
 		<div class="price_div">
-			<span class="price">ЦЕНА: <span>[xfvalue_price]грн.</span> </span>
+			<span class="price" >ЦЕНА: <span [xfgiven_new_price] style="text-decoration: line-through;color:red;" [/xfgiven_new_price] >[xfvalue_price]грн.</span> [xfgiven_new_price]<span class="new_prod_price">[xfvalue_new_price]</span>[/xfgiven_new_price] </span>
 
 
 		</div>
@@ -58,7 +60,8 @@
 		data-toggle="modal"
 		data-target="#exampleModal" 
 	   data-whatever="[xfvalue_rus_title]"
-	   data-price="[xfvalue_price]"
+	   [xfnotgiven_new_price]data-price="[xfvalue_price]"[/xfnotgiven_new_price]
+	   [xfgiven_new_price]data-price="[xfvalue_new_price]"[/xfgiven_new_price]
 	   data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 	</div>
 
@@ -98,8 +101,9 @@
 
 		<hr>
 
+	
 		<div class="price_div">
-			<span class="price">ЦЕНА: <span>[xfvalue_price]грн.</span> </span>
+			<span class="price" >ЦЕНА: <span [xfgiven_new_price] style="text-decoration: line-through;color:red;" [/xfgiven_new_price] >[xfvalue_price]грн.</span> [xfgiven_new_price]<span class="new_prod_price">[xfvalue_new_price]</span>[/xfgiven_new_price] </span>
 
 
 		</div>
@@ -109,8 +113,9 @@
 		data-toggle="modal"
 		data-target="#exampleModal" 
 	   data-whatever="[xfvalue_rus_title]"
-	   data-price="[xfvalue_price]"
-	   data-olx-link="[xfvalue_olx_linck]">Заказать</div>
+	   [xfnotgiven_new_price]data-price="[xfvalue_price]"[/xfnotgiven_new_price]
+	   [xfgiven_new_price]data-price="[xfvalue_new_price]"[/xfgiven_new_price]
+	   data-olx-link="[xfvalue_olx_linck]">ЗАКАЗАТЬ</div>
 	</div>
 
 </div>
