@@ -13,7 +13,7 @@ $(function () {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "/mail.php", //Change
+			url: "/bot.php", //Change
 			data: th.serialize()
 		}).done(function () {
 			//alert("Thank you!");
@@ -21,13 +21,13 @@ $(function () {
 				// Done Functions
 				th.trigger("reset");
 				$("#exampleModal .close").click();
+				$("#exampleModal2 .close").click();
 			
 
 			}, 1000);
 		});
 		return false;
 	});
-
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
