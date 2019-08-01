@@ -13,7 +13,7 @@ $(function () {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "/mail.php", //Change
+			url: "/bot.php", //Change
 			data: th.serialize()
 		}).done(function () {
 			//alert("Thank you!");
