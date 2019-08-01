@@ -21,6 +21,7 @@ $(function () {
 				// Done Functions
 				th.trigger("reset");
 				$("#exampleModal .close").click();
+				$("#exampleModal2 .close").click();
 			
 
 			}, 1000);
