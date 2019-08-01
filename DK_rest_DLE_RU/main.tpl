@@ -410,7 +410,7 @@
 
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
+						<input type="hidden" name="admin_email" value="dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Замовлення">
 						<!-- END Hidden Required Fields -->
 
@@ -424,7 +424,7 @@
 
 						<div class="form-group">
 
-							<input name="ім'я" type="text" class="form-control" id="recipient-name"
+							<input name="Ім'я" type="text" class="form-control" id="recipient-name"
 								placeholder="Ваше имя" required>
 						</div>
 						<div class="form-group">
@@ -434,7 +434,7 @@
 						</div>
 						<div class="form-group">
 
-							<input name="телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 
@@ -458,8 +458,8 @@
 							<select name="Кількість" size="1" class="form-control" id="goods_count">
 
 								<option disabled>Выберете количество</option>
-								<option value="1">1</option>
-								<option selected value="2">2</option>
+								<option selected value="1">1</option>
+								<option  value="2">2</option>
 								<option value="3">3</option>
 								<option value="10">10</option>
 
@@ -497,7 +497,7 @@
 					<form class="ajax_form">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
+						<input type="hidden" name="admin_email" value="dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Ваш ворос или пожелание">
 						<!-- END Hidden Required Fields -->
 
@@ -505,13 +505,13 @@
 
 						<div class="form-group">
 
-							<input name="ім'я" type="text" class="form-control" id="recipient-name"
+							<input name="Ім'я" type="text" class="form-control" id="recipient-name"
 								placeholder="Ваше имя" required>
 						</div>
 
 						<div class="form-group">
 
-							<input name="телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 						<div class="form-group">
