@@ -434,12 +434,12 @@
 
 							<input name="Товар" type="text" class="form-control" id="goods_name">
 
-							<input id="price_form" type="hidden" name="ціна">
+							<input id="price_form" type="hidden" name="Ціна">
 						</div>
 
 						<div class="form-group">
 
-							<input name="ім'я" type="text" class="form-control" id="recipient-name"
+							<input name="Ім'я" type="text" class="form-control" id="recipient-name"
 								placeholder="Ваше ім'я" required>
 						</div>
 						<div class="form-group">
@@ -449,15 +449,14 @@
 						</div>
 						<div class="form-group">
 
-							<input name="телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 
 						<div class="form-group">
 							<h4>Оберіть спосіб доставки</h4>
 							<img id="olx_btn" class="deliver_tupe" src="{THEME}/img/logotip-olx.png" alt="OLX">
-							<img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg"
-								alt="NOVA POSHTA">
+							<img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg"	alt="NOVA POSHTA">
 
 						</div>
 
@@ -473,8 +472,8 @@
 							<select name="Кількість" size="1" class="form-control" id="goods_count">
 
 								<option disabled>Оберіть кількість</option>
-								<option value="1">1</option>
-								<option selected value="2">2</option>
+								<option selected value="1">1</option>
+								<option value="2">2</option>
 								<option value="3">3</option>
 								<option value="10">10</option>
 
@@ -512,7 +511,7 @@
 					<form class="ajax_form">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
+						<input type="hidden" name="admin_email" value="dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Замовлення">
 						<!-- END Hidden Required Fields -->
 
@@ -520,13 +519,13 @@
 
 						<div class="form-group">
 
-							<input name="ім'я" type="text" class="form-control" id="recipient-name"
+							<input name="Ім'я" type="text" class="form-control" id="recipient-name"
 								placeholder="Ваше ім'я" required>
 						</div>
 
 						<div class="form-group">
 
-							<input name="телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 						<div class="form-group">
