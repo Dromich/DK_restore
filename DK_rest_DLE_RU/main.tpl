@@ -464,7 +464,7 @@
 						</div>
 						<div class="form-group">
 
-							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="tel" class="form-control tel_inp" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 
@@ -541,7 +541,7 @@
 
 						<div class="form-group">
 
-							<input name="Телефон" type="text" class="form-control" id="recipient-phone"
+							<input name="Телефон" type="tel" class="form-control tel_inp" id="recipient-phone"
 								placeholder="Ваш телефон" required>
 						</div>
 						<div class="form-group">
@@ -590,9 +590,26 @@
 		<link rel="stylesheet" href="{THEME}/libs/fotorama/fotorama.css">
 
 		<script src="{THEME}/js/common.js"></script>
+		<script src="{THEME}/js/jquery.inputmask.min.js"></script>
 
 		<script>
 			new WOW().init();
+			$(document).ready(function() {
+	$(".tel_inp").inputmask("+38(999)999-99-99")
+	$(".tel_inp").change(function (e) { 
+		//e.preventDefault();
+		
+		let re = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/;		
+		let valid = re.test($(this).val());
+		if(valid){			
+			$(".ajax_form .btn-primary").prop('disabled', false);
+		}else{			
+			$(".ajax_form .btn-primary").prop('disabled', true);
+		}
+
+		
+	});
+});
 		</script>
 
 
