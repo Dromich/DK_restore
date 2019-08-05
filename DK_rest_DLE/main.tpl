@@ -307,22 +307,40 @@
 					</div>
 
 					<div class="col-md-4 youtube_item">
-						<iframe width="100%" height="300" src="https://www.youtube.com/embed/5yFqFU9EOok"
+						<iframe width="100%" height="300" src="https://www.youtube.com/embed/FgHAAYJ3Kx8"
 							frameborder="0" allowfullscreen></iframe>
 
-						<span>Как наносить лак Delta Kits</span>
-					</div>
-					<div class="col-md-4 youtube_item">
-						<iframe width="100%" height="300" src="https://www.youtube.com/embed/h-0DpQwumUg"
-							frameborder="0" allowfullscreen></iframe>
-
-						<span>Восстановления фар Volkswagen Passat B5 с помощью лака Delta Kits Infinity</span>
+						<span>Восстановление и защита фар Volkswagen Passat B5 2000 г.в. с помощю лака Delta Kits Infiniti</span>
 					</div>
 					<div class="col-md-4 youtube_item">
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/dgKF1_tXKMo"
 							frameborder="0" allowfullscreen></iframe>
 
 						<span>Восстановления фар Mercedes Benz Sprinter с помощью лака Delta Kits Infinity</span>
+                    </div>
+					<div class="col-md-4 youtube_item">
+						<iframe width="100%" height="300" src="https://www.youtube.com/embed/h-0DpQwumUg"
+							frameborder="0" allowfullscreen></iframe>
+
+						<span>Восстановления фар Volkswagen Passat B5 2003 г.в. с помощью лака Delta Kits Infinity</span>
+                    </div>
+					<div class="col-md-4 youtube_item">
+						<iframe width="100%" height="300" src="https://www.youtube.com/embed/dMU3A6u9rYU"
+							frameborder="0" allowfullscreen></iframe>
+
+						<span>Восстановление прозрачности и защиты фар Subaru Outback с помощью лака Delta Kits Infinity</span>
+                    </div>
+					<div class="col-md-4 youtube_item">
+						<iframe width="100%" height="300" src="https://www.youtube.com/embed/m_1V0etX2i8"
+							frameborder="0" allowfullscreen></iframe>
+
+						<span>Восстановление фар Daewoо Lanos с помощью лака Delta Kits Coat2Protect</span>
+					</div>
+					<div class="col-md-4 youtube_item">
+						<iframe width="100%" height="300" src="https://www.youtube.com/embed/5yFqFU9EOok"
+							frameborder="0" allowfullscreen></iframe>
+
+						<span>Как наносить лак Delta Kits</span>
 
 					</div>
 				</div>
