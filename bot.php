@@ -48,8 +48,10 @@ if ( $method === 'POST' ) {
 }
 $message = "<table style='width: 100%;'>$message</table>";
 
-$bot_message= "<strong>НОВЕ ПОВІДОМЛЕННЯ:</strong> 
+$bot_message= "<strong>".$form_subject.":</strong>
+
 $bot_message";
+
 function adopt($text) {
 	return '=?UTF-8?B?'.Base64_encode($text).'?=';
 }
