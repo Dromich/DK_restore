@@ -594,12 +594,15 @@
 
 		<script>
 			new WOW().init();
+
 			$(document).ready(function() {
 	$(".tel_inp").inputmask("+38(999)999-99-99")
-	$(".tel_inp").change(function (e) { 
+
+	$(".tel_inp").on('input',function(e) { 
 		//e.preventDefault();
 		
-		let re = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/;		
+		let re = /^(\+)?(\(\d{2,3}\) ?\d|\d)(([ \-]?\d)|( ?\(\d{2,3}\) ?)){5,12}\d$/;
+		
 		let valid = re.test($(this).val());
 		if(valid){			
 			$(".ajax_form .btn-primary").prop('disabled', false);
