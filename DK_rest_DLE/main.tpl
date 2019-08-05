@@ -69,7 +69,7 @@
 							<li><a class="flowing-scroll" data-target="#youTube" href="/">YouTube</a></li>
 							<li><a class="flowing-scroll" data-target="#two_kit" href="/">Акція</a></li>
 						</ul>
-							<ul class="top_menu">
+						<ul class="top_menu">
 							<li><a class="flowing-scroll" data-target="#about_work" href="/">Як замовити?</a></li>
 							<li><a class="flowing-scroll" data-target="#photogalery" href="/">Галерея</a></li>
 							<li><a class="flowing-scroll" data-target="#contacts" href="/">Контакти</a></li>
@@ -310,26 +310,29 @@
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/FgHAAYJ3Kx8"
 							frameborder="0" allowfullscreen></iframe>
 
-						<span>Восстановление и защита фар Volkswagen Passat B5 2000 г.в. с помощю лака Delta Kits Infiniti</span>
+						<span>Восстановление и защита фар Volkswagen Passat B5 2000 г.в. с помощю лака Delta Kits
+							Infiniti</span>
 					</div>
 					<div class="col-md-4 youtube_item">
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/dgKF1_tXKMo"
 							frameborder="0" allowfullscreen></iframe>
 
 						<span>Восстановления фар Mercedes Benz Sprinter с помощью лака Delta Kits Infinity</span>
-                    </div>
+					</div>
 					<div class="col-md-4 youtube_item">
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/h-0DpQwumUg"
 							frameborder="0" allowfullscreen></iframe>
 
-						<span>Восстановления фар Volkswagen Passat B5 2003 г.в. с помощью лака Delta Kits Infinity</span>
-                    </div>
+						<span>Восстановления фар Volkswagen Passat B5 2003 г.в. с помощью лака Delta Kits
+							Infinity</span>
+					</div>
 					<div class="col-md-4 youtube_item">
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/dMU3A6u9rYU"
 							frameborder="0" allowfullscreen></iframe>
 
-						<span>Восстановление прозрачности и защиты фар Subaru Outback с помощью лака Delta Kits Infinity</span>
-                    </div>
+						<span>Восстановление прозрачности и защиты фар Subaru Outback с помощью лака Delta Kits
+							Infinity</span>
+					</div>
 					<div class="col-md-4 youtube_item">
 						<iframe width="100%" height="300" src="https://www.youtube.com/embed/m_1V0etX2i8"
 							frameborder="0" allowfullscreen></iframe>
@@ -350,7 +353,7 @@
 
 		<!--Specials SALE-->
 
-		{custom category="11" template="sale" available="main" navigation="no" from="0"  fixed="no"  cache="no"}
+		{custom category="11" template="sale" available="main" navigation="no" from="0" fixed="no" cache="no"}
 
 		<section id="about_work">
 			<h2>Як Ми працюємо?</h2>
@@ -379,7 +382,7 @@
 		</section>
 		<section id="photogalery">
 
-			{custom category="10" template="galery" available="main" navigation="no" from="0" limit="20" fixed="no"		order="rand" sort="desc" cache="no"}
+			{custom category="10" template="galery" available="main" navigation="no" from="0" limit="20" fixed="no"	order="rand" sort="desc" cache="no"}
 
 
 		</section>
@@ -387,13 +390,16 @@
 			<h2>Залиште свій відгук</h2>
 
 			<div id="fb-root"></div>
-			<script>(function (d, s, id) {
+			<script>
+				(function (d, s, id) {
 					var js, fjs = d.getElementsByTagName(s)[0];
 					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
+					js = d.createElement(s);
+					js.id = id;
 					js.src = "//connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v2.9";
 					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
 			<center>
 				<div class="fb-comments" data-href="http://dk-restore.com.ua" data-width="700" data-numposts="5"></div>
 			</center>
@@ -416,6 +422,18 @@
 				<h2>Залишились запитання?</h2>
 				<a id="go" data-toggle="modal" data-target="#exampleModal2">Поставте їх нам якнайшвидше!</a>
 				<div class="clear"></div>
+				<!--LiveInternet counter-->
+				<script type="text/javascript">
+					document.write('<a href="//www.liveinternet.ru/click" ' +
+						'target="_blank"><img src="//counter.yadro.ru/hit?t38.11;r' +
+						escape(document.referrer) + ((typeof (screen) == 'undefined') ? '' :
+							';s' + screen.width + '*' + screen.height + '*' + (screen.colorDepth ?
+								screen.colorDepth : screen.pixelDepth)) + ';u' + escape(document.URL) +
+						';h' + escape(document.title.substring(0, 150)) + ';' + Math.random() +
+						'" alt="" title="LiveInternet" ' +
+						'border="0" width="31" height="31"><\/a>')
+				</script>
+				<!--/LiveInternet-->
 			</div>
 		</section>
 
@@ -438,7 +456,8 @@
 
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="dk-restore">
-						<input type="hidden" name="admin_email" value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
+						<input type="hidden" name="admin_email"
+							value="deltakits@ukr.net,legranchio@gmail.com,dkrestore99@gmail.com">
 						<input type="hidden" name="form_subject" value="Замовлення">
 						<!-- END Hidden Required Fields -->
 
@@ -474,7 +493,8 @@
 						<div class="form-group">
 							<h4>Оберіть спосіб доставки</h4>
 							<img id="olx_btn" class="deliver_tupe" src="{THEME}/img/logotip-olx.png" alt="OLX">
-							<img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg"	alt="NOVA POSHTA">
+							<img id="np_btn" class="deliver_tupe" src="{THEME}/img/Nova_Poshta_2014_logo.svg"
+								alt="NOVA POSHTA">
 
 						</div>
 

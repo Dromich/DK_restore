@@ -406,6 +406,18 @@
 				<a id="go" data-toggle="modal" data-target="#exampleModal2">Задайте их нам прямо сейчас!
 				</a>
 				<div class="clear"></div>
+				<!--LiveInternet counter-->
+				<script type="text/javascript">
+					document.write('<a href="//www.liveinternet.ru/click" ' +
+						'target="_blank"><img src="//counter.yadro.ru/hit?t38.11;r' +
+						escape(document.referrer) + ((typeof (screen) == 'undefined') ? '' :
+							';s' + screen.width + '*' + screen.height + '*' + (screen.colorDepth ?
+								screen.colorDepth : screen.pixelDepth)) + ';u' + escape(document.URL) +
+						';h' + escape(document.title.substring(0, 150)) + ';' + Math.random() +
+						'" alt="" title="LiveInternet" ' +
+						'border="0" width="31" height="31"><\/a>')
+				</script>
+				<!--/LiveInternet-->
 			</div>
 		</section>
 
