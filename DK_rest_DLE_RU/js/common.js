@@ -65,7 +65,15 @@ $(document).ready(function () {
 	});
 
 
-    
+	$(".sbm_btn").click(function (e) { 
+		if (!$('#np_btn').hasClass('active')) {			
+			$('#np_selectors').css('display', 'block');
+		}
+	   
+
+	   
+   }); 
+ 
 
 
 });
@@ -121,8 +129,9 @@ setTimeout(() => {
 		return int
 	  }
 
-	$('#np_btn').click(function (e) { 
-		e.preventDefault();		
+	  $('#np_btn').click(function (e) { 
+		e.preventDefault();	
+		$(this).addClass('active');	
 		$('#np_selectors').slideToggle()
 	});
 

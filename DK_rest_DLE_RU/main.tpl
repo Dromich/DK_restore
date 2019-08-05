@@ -506,7 +506,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-					<button type="submit" class="sb_btn btn btn-primary">Заказать</button>
+					<button type="submit" class="sb_btn btn btn-primary sbm_btn">Заказать</button>
 
 				</div>
 				</form>
@@ -550,7 +550,7 @@
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-							<button type="submit" class="btn  btn-primary">Отправить</button>
+							<button type="submit" class="btn  btn-primary sbm_btn">Отправить</button>
 
 						</div>
 					</form>
@@ -605,9 +605,9 @@
 		
 		let valid = re.test($(this).val());
 		if(valid){			
-			$(".ajax_form .btn-primary").prop('disabled', false);
+			$(".sbm_btn").prop('disabled', false);
 		}else{			
-			$(".ajax_form .btn-primary").prop('disabled', true);
+			$(".sbm_btn").prop('disabled', true);
 		}
 
 		
