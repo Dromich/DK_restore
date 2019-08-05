@@ -500,9 +500,9 @@
 
 						<div id="np_selectors" class="form-group">
 							<h5>Оберіть місто доставки</h5>
-							<select name="Місто доставки" class="form-control" id="cities"></select>
+							<select name="Місто доставки" class="form-control" id="cities" required></select>
 							<h5>Оберіть віділення </h5>
-							<select name="Віділення НП" class="form-control" id="warehouses"></select>
+							<select name="Віділення НП" class="form-control" id="warehouses" required></select>
 						</div>
 
 						<div class="form-group">
@@ -528,7 +528,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
-					<button type="submit" class="sb_btn btn btn-primary">Замовити</button>
+					<button type="submit" class="sb_btn btn btn-primary sbm_btn" disabled="">Замовити</button>
 
 				</div>
 				</form>
@@ -572,7 +572,7 @@
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
-							<button type="submit" class="btn  btn-primary">Надіслати</button>
+							<button type="submit" class="btn  btn-primary sbm_btn" disabled="">Надіслати</button>
 
 						</div>
 					</form>
@@ -628,9 +628,9 @@
 		
 		let valid = re.test($(this).val());
 		if(valid){			
-			$(".ajax_form .btn-primary").prop('disabled', false);
+			$(".sbm_btn").prop('disabled', false);
 		}else{			
-			$(".ajax_form .btn-primary").prop('disabled', true);
+			$(".sbm_btn").prop('disabled', true);
 		}
 
 		
