@@ -63,7 +63,7 @@
 					</div>
 					<div id="main_menu" class="col-md-8 ">
 						<ul class="top_menu">
-							<li><a class="flowing-scroll" data-target="#goods_items" href="/">Набори для фар</a></li>
+							<li><a class="flowing-scroll" data-target="#top_seo_sections" href="/">Набори для фар</a></li>
 							<li><a class="flowing-scroll" data-target="#factors" href="/">Чому жовтіють фари?</a></li>
 							<li><a class="flowing-scroll" data-target="#pluses" href="/">Чому обирають нас? </a></li>
 							<li><a class="flowing-scroll" data-target="#youTube" href="/">YouTube</a></li>
