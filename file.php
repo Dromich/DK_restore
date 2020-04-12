@@ -3,7 +3,7 @@ require_once('src/Delivery/NovaPoshtaApi2.php');
 require_once('src/Delivery/NovaPoshtaApi2Areas.php');
 
 $np = new \LisDev\Delivery\NovaPoshtaApi2(
-    '05a74beed9ea749a6ec1363a7fc86558',
+    '5529d5fa8f6d64d8ec4e8fe105d2ecda',
     'ua', // Язык возвращаемых данных: ru (default) | ua | en
     FALSE, // При ошибке в запросе выбрасывать Exception: FALSE (default) | TRUE
     'curl' // Используемый механизм запроса: curl (defalut) | file_get_content
