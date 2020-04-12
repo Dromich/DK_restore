@@ -431,7 +431,7 @@
 								screen.colorDepth : screen.pixelDepth)) + ';u' + escape(document.URL) +
 						';h' + escape(document.title.substring(0, 150)) + ';' + Math.random() +
 						'" alt="" title="LiveInternet" ' +
-						'border="0" width="31" height="31"><\/a>')
+						'border="0" width="31" height="31"><\/a>');
 				</script>
 				<!--/LiveInternet-->
 			</div>
