@@ -1,7 +1,9 @@
 DirectoryIndex index.php
 
+
+
 RewriteEngine On
-  
+RewriteRule ^(/?)+$ index.php?action_skin_change=yes&skin_name=DK_rest_DLE [L]
 RewriteRule ^ua/(/?)+$ index.php?action_skin_change=yes&skin_name=DK_rest_DLE [L]
 RewriteRule ^ru/(/?)+$ index.php?action_skin_change=yes&skin_name=DK_rest_DLE_RU [L]
 
