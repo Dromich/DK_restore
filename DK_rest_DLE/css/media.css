@@ -12,6 +12,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.car{
+		display: none;
+	}
+	#factors {
+		max-width: 92%;
+	}
+	.any_q {
+		max-width: 92%;
+		overflow-x: hidden;
+	}
 	.contacts .wrap {
 		width: 100%;		
 		padding: 35px;		

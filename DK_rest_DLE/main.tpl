@@ -440,11 +440,8 @@
 	</main>
 
 
-
-
-
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-		<div class="modal-dialog" role="document">
+		<div class="modal-dialog modal-dialog-centered bd-example-modal-sm" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
@@ -581,11 +578,7 @@
 		</div>
 
 
-		<div class="hidden">
-
-
-
-		</div>
+		<div class="hidden"></div>
 
 		<div class="loader">
 			<div class="loader_inner"></div>
@@ -598,7 +591,7 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-		<!--script src="{THEME}/libs/jquery/jquery-1.11.2.min.js"></script-->
+		
 		<script src="{THEME}/libs/waypoints/waypoints.min.js"></script>
 		<script src="{THEME}/libs/animate/animate-css.js"></script>
 		<script src="{THEME}/libs/plugins-scroll/plugins-scroll.js"></script>
