@@ -16,7 +16,7 @@ $(function () {
 			url: "/bot.php", //Change
 			data: th.serialize()
 		}).done(function () {
-			//alert("Thank you!");
+			th.html('<h1>Спасибо скоро мы с вами свяжемся</h1>');
 			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
@@ -24,7 +24,7 @@ $(function () {
 				$("#exampleModal2 .close").click();
 			
 
-			}, 1000);
+			}, 3000);
 		});
 		return false;
 	});
@@ -184,9 +184,5 @@ if ($(this).hasClass('but_to_right')) {
 	$(this).addClass('but_to_right');
 	$(this).css('left', 250);
 	$(this).html('<img src="/templates/DK_rest_DLE/img/close.png" alt="menu_icon">');
-}
-
-
-
-	
+}	
 });

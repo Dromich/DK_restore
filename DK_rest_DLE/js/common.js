@@ -16,7 +16,7 @@ $(function () {
 			url: "/bot.php", //Change
 			data: th.serialize()
 		}).done(function () {
-			//alert("Thank you!");
+			th.html('<h1>Дякуємо скоро ми з вами звяжемось!</h1>');
 			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
@@ -24,7 +24,7 @@ $(function () {
 				$("#exampleModal2 .close").click();
 			
 
-			}, 1000);
+			}, 3000);
 		});
 		return false;
 	});
